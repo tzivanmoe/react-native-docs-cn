@@ -94,7 +94,7 @@
 	* [ToastAndroid](docs/toastandroid.md)
 	* [VibrationIOS](docs/vibrationios.md)
   
-*	接口兼容(POLYFILLS)</text>
+*	接口兼容(POLYFILLS)
 	* [弹性盒(Flexbox)](docs/flexbox.md)
 	* [定位](docs/geolocation.md)
     * [网络](docs/network.md)
