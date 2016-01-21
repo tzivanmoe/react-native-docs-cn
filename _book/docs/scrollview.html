@@ -1,0 +1,1983 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>ScrollView | React Native中文文档</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../docs/segmentedcontrolios.html" />
+    
+    
+    <link rel="prev" href="../docs/refreshcontrol.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="5.15"
+        data-chapter-title="ScrollView"
+        data-filepath="docs/scrollview.md"
+        data-basepath=".."
+        data-revision="Tue Jan 19 2016 17:58:59 GMT+0800 (CST)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" >
+            
+            <span><b>1.</b> 快速入门</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="docs/getting-started.html">
+            
+                
+                    <a href="../docs/getting-started.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        开始使用ReactNative
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="docs/android-setup.html">
+            
+                
+                    <a href="../docs/android-setup.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        安卓环境配置
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="docs/linux-windows-support.html">
+            
+                
+                    <a href="../docs/linux-windows-support.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                        Linux和Windows支持
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="docs/tutorial.html">
+            
+                
+                    <a href="../docs/tutorial.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.</b>
+                        
+                        新手引导
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" >
+            
+            <span><b>2.</b> 使用指南</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="docs/style.html">
+            
+                
+                    <a href="../docs/style.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        样式
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="docs/images.html">
+            
+                
+                    <a href="../docs/images.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        图片
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="docs/gesture-responder-system.html">
+            
+                
+                    <a href="../docs/gesture-responder-system.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        手势响应系统
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="docs/animations.html">
+            
+                
+                    <a href="../docs/animations.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                        动画
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="docs/accessibility.html">
+            
+                
+                    <a href="../docs/accessibility.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.</b>
+                        
+                        无障碍功能
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="docs/direct-manipulation.html">
+            
+                
+                    <a href="../docs/direct-manipulation.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.6.</b>
+                        
+                        直接操作
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="docs/debugging.html">
+            
+                
+                    <a href="../docs/debugging.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.7.</b>
+                        
+                        调试
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" data-path="docs/testing.html">
+            
+                
+                    <a href="../docs/testing.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.8.</b>
+                        
+                        自动化测试
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9" data-path="docs/javascript-environment.html">
+            
+                
+                    <a href="../docs/javascript-environment.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.9.</b>
+                        
+                        Javascript环境
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.10" data-path="docs/navigator-comparison.html">
+            
+                
+                    <a href="../docs/navigator-comparison.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.10.</b>
+                        
+                        导航器对比
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.11" data-path="docs/known-issues.html">
+            
+                
+                    <a href="../docs/known-issues.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.11.</b>
+                        
+                        已知问题
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.12" data-path="docs/performance.html">
+            
+                
+                    <a href="../docs/performance.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.12.</b>
+                        
+                        性能
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.13" data-path="docs/upgrading.html">
+            
+                
+                    <a href="../docs/upgrading.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.13.</b>
+                        
+                        升级
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.14" data-path="docs/platform-specific-code.html">
+            
+                
+                    <a href="../docs/platform-specific-code.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.14.</b>
+                        
+                        特定平台代码
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" >
+            
+            <span><b>3.</b> 使用指南(ISO)</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="docs/native-modules-ios.html">
+            
+                
+                    <a href="../docs/native-modules-ios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        原生模块
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="docs/native-component-ios.html">
+            
+                
+                    <a href="../docs/native-component-ios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        原生UI组件
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="docs/linking-libraries-ios.html">
+            
+                
+                    <a href="../docs/linking-libraries-ios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                        使用链接库
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="docs/running-on-device-ios.html">
+            
+                
+                    <a href="../docs/running-on-device-ios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.</b>
+                        
+                        在设备上运行
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="docs/embedded-app-ios.html">
+            
+                
+                    <a href="../docs/embedded-app-ios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.5.</b>
+                        
+                        植入原生应用
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="docs/communication-ios.html">
+            
+                
+                    <a href="../docs/communication-ios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.6.</b>
+                        
+                        在原生和ReactNative间通信
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" >
+            
+            <span><b>4.</b> 使用指南(Android)</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="docs/native-modules-android.html">
+            
+                
+                    <a href="../docs/native-modules-android.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        原生模块
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="docs/native-component-android.html">
+            
+                
+                    <a href="../docs/native-component-android.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                        原生UI组件
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="docs/running-on-device-android.html">
+            
+                
+                    <a href="../docs/running-on-device-android.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.3.</b>
+                        
+                        在设备上运行
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="docs/embedded-app-android.html">
+            
+                
+                    <a href="../docs/embedded-app-android.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.4.</b>
+                        
+                        植入原生应用
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5" data-path="docs/signed-apk-android.html">
+            
+                
+                    <a href="../docs/signed-apk-android.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.5.</b>
+                        
+                        生成已签名的APK
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6" data-path="docs/android-ui-performance.html">
+            
+                
+                    <a href="../docs/android-ui-performance.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.</b>
+                        
+                        调试AndroidUI性能
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.7" data-path="docs/android-buildingfromsource.html">
+            
+                
+                    <a href="../docs/android-buildingfromsource.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.7.</b>
+                        
+                        从源代码编译ReactNative
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5" >
+            
+            <span><b>5.</b> 组件</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1" data-path="docs/activityindicatorios.html">
+            
+                
+                    <a href="../docs/activityindicatorios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.</b>
+                        
+                        ActivityIndicatorIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="docs/datepickerios.html">
+            
+                
+                    <a href="../docs/datepickerios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.</b>
+                        
+                        DatePickerIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="docs/drawerlayoutandroid.html">
+            
+                
+                    <a href="../docs/drawerlayoutandroid.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.</b>
+                        
+                        DrawerLayoutAndroid
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.4" data-path="docs/image.html">
+            
+                
+                    <a href="../docs/image.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.4.</b>
+                        
+                        Image
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.5" data-path="docs/listview.html">
+            
+                
+                    <a href="../docs/listview.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.5.</b>
+                        
+                        ListView
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.6" data-path="docs/mapview.html">
+            
+                
+                    <a href="../docs/mapview.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.6.</b>
+                        
+                        MapView
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.7" data-path="docs/modal.html">
+            
+                
+                    <a href="../docs/modal.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.7.</b>
+                        
+                        Modal
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.8" data-path="docs/navigator.html">
+            
+                
+                    <a href="../docs/navigator.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.8.</b>
+                        
+                        Navigator
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.9" data-path="docs/navigatorios.html">
+            
+                
+                    <a href="../docs/navigatorios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.9.</b>
+                        
+                        NavigatorIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.10" data-path="docs/pickerios.html">
+            
+                
+                    <a href="../docs/pickerios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.10.</b>
+                        
+                        PickerIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.11" data-path="docs/progressbarandroid.html">
+            
+                
+                    <a href="../docs/progressbarandroid.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.11.</b>
+                        
+                        ProgressBarAndroid
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.12" data-path="docs/progressviewios.html">
+            
+                
+                    <a href="../docs/progressviewios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.12.</b>
+                        
+                        ProgressViewIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.13" data-path="docs/pulltorefreshviewandroid.html">
+            
+                
+                    <a href="../docs/pulltorefreshviewandroid.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.13.</b>
+                        
+                        PullToRefreshViewAndroid
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.14" data-path="docs/refreshcontrol.html">
+            
+                
+                    <a href="../docs/refreshcontrol.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.14.</b>
+                        
+                        RefreshControl
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="5.15" data-path="docs/scrollview.html">
+            
+                
+                    <a href="../docs/scrollview.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.15.</b>
+                        
+                        ScrollView
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.16" data-path="docs/segmentedcontrolios.html">
+            
+                
+                    <a href="../docs/segmentedcontrolios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.16.</b>
+                        
+                        SegmentedControllIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.17" data-path="docs/sliderios.html">
+            
+                
+                    <a href="../docs/sliderios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.17.</b>
+                        
+                        SliderIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.18" data-path="docs/switch.html">
+            
+                
+                    <a href="../docs/switch.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.18.</b>
+                        
+                        Switch
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.19" data-path="docs/tabbarios.html">
+            
+                
+                    <a href="../docs/tabbarios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.19.</b>
+                        
+                        TabBarIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.20" data-path="docs/tabbarios-item.html">
+            
+                
+                    <a href="../docs/tabbarios-item.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.20.</b>
+                        
+                        TabBarIOS.Item
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.21" data-path="docs/text.html">
+            
+                
+                    <a href="../docs/text.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.21.</b>
+                        
+                        Text
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.22" data-path="docs/textinput.html">
+            
+                
+                    <a href="../docs/textinput.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.22.</b>
+                        
+                        TextInput
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.23" data-path="docs/toolbarandroid.html">
+            
+                
+                    <a href="../docs/toolbarandroid.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.23.</b>
+                        
+                        ToolbarAndroid
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.24" data-path="docs/touchablehighlight.html">
+            
+                
+                    <a href="../docs/touchablehighlight.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.24.</b>
+                        
+                        TouchableHighlight
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.25" data-path="docs/touchablenativefeedback.html">
+            
+                
+                    <a href="../docs/touchablenativefeedback.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.25.</b>
+                        
+                        TouchableNativeFeedback
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.26" data-path="docs/touchableopacity.html">
+            
+                
+                    <a href="../docs/touchableopacity.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.26.</b>
+                        
+                        TouchableOpacity
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.27" data-path="docs/touchablewithoutfeedback.html">
+            
+                
+                    <a href="../docs/touchablewithoutfeedback.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.27.</b>
+                        
+                        TouchableWithoutFeedback
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.28" data-path="docs/view.html">
+            
+                
+                    <a href="../docs/view.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.28.</b>
+                        
+                        View
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.29" data-path="docs/viewpagerandroid.html">
+            
+                
+                    <a href="../docs/viewpagerandroid.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.29.</b>
+                        
+                        ViewPagerAndroid
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.30" data-path="docs/webview.html">
+            
+                
+                    <a href="../docs/webview.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.30.</b>
+                        
+                        WebView
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6" >
+            
+            <span><b>6.</b> API</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1" data-path="docs/actionsheetios.html">
+            
+                
+                    <a href="../docs/actionsheetios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.1.</b>
+                        
+                        ctionSheetIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="docs/alert.html">
+            
+                
+                    <a href="../docs/alert.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.2.</b>
+                        
+                        Alert
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.3" data-path="docs/alertios.html">
+            
+                
+                    <a href="../docs/alertios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.3.</b>
+                        
+                        AlertIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.4" data-path="docs/animated.html">
+            
+            <span><b>6.4.</b> Animated</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5" data-path="docs/appregistry.html">
+            
+                
+                    <a href="../docs/appregistry.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.5.</b>
+                        
+                        AppRegistry
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.6" data-path="docs/appstateios.html">
+            
+                
+                    <a href="../docs/appstateios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.6.</b>
+                        
+                        AppStateIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.7" data-path="docs/asyncstorage.html">
+            
+                
+                    <a href="../docs/asyncstorage.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.7.</b>
+                        
+                        AsyncStorage
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.8" data-path="docs/backandroid.html">
+            
+                
+                    <a href="../docs/backandroid.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.8.</b>
+                        
+                        BackAndroid
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.9" data-path="docs/cameraroll.html">
+            
+                
+                    <a href="../docs/cameraroll.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.9.</b>
+                        
+                        CameraRoll
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.10" data-path="docs/dimensions.html">
+            
+                
+                    <a href="../docs/dimensions.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.10.</b>
+                        
+                        Dimensions
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.11" data-path="docs/intentandroid.html">
+            
+                
+                    <a href="../docs/intentandroid.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.11.</b>
+                        
+                        IntentAndroid
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.12" data-path="docs/interactionmanager.html">
+            
+                
+                    <a href="../docs/interactionmanager.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.12.</b>
+                        
+                        InteractionManager
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.13" data-path="docs/layoutanimation.html">
+            
+                
+                    <a href="../docs/layoutanimation.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.13.</b>
+                        
+                        LayoutAnimation
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.14" data-path="docs/linkingios.html">
+            
+                
+                    <a href="../docs/linkingios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.14.</b>
+                        
+                        LinkingIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.15" data-path="docs/nativemethodsmixin.html">
+            
+                
+                    <a href="../docs/nativemethodsmixin.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.15.</b>
+                        
+                        NativeMethodsMixin
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.16" data-path="docs/netinfo.html">
+            
+                
+                    <a href="../docs/netinfo.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.16.</b>
+                        
+                        NetInfo
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.17" data-path="docs/panresponder.html">
+            
+                
+                    <a href="../docs/panresponder.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.17.</b>
+                        
+                        PanResponder
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.18" data-path="docs/pixelratio.html">
+            
+                
+                    <a href="../docs/pixelratio.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.18.</b>
+                        
+                        PixelRatio
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.19" data-path="docs/pushnotificationios.html">
+            
+                
+                    <a href="../docs/pushnotificationios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.19.</b>
+                        
+                        PushNotificationIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.20" data-path="docs/statusbarios.html">
+            
+                
+                    <a href="../docs/statusbarios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.20.</b>
+                        
+                        StatusBarIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.21" data-path="docs/stylesheet.html">
+            
+                
+                    <a href="../docs/stylesheet.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.21.</b>
+                        
+                        StyleSheet
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.22" data-path="docs/toastandroid.html">
+            
+                
+                    <a href="../docs/toastandroid.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.22.</b>
+                        
+                        ToastAndroid
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.23" data-path="docs/vibrationios.html">
+            
+                
+                    <a href="../docs/vibrationios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.23.</b>
+                        
+                        VibrationIOS
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7" >
+            
+            <span><b>7.</b> 接口兼容(POLYFILLS)</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.1" data-path="docs/flexbox.html">
+            
+                
+                    <a href="../docs/flexbox.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.1.</b>
+                        
+                        弹性盒(Flexbox)
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="docs/geolocation.html">
+            
+                
+                    <a href="../docs/geolocation.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.2.</b>
+                        
+                        定位
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.3" data-path="docs/network.html">
+            
+                
+                    <a href="../docs/network.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.3.</b>
+                        
+                        网络
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.4" data-path="docs/timers.html">
+            
+                
+                    <a href="../docs/timers.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.4.</b>
+                        
+                        定时器
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >React Native中文文档</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <p>&#x4E00;&#x4E2A;&#x5305;&#x88C5;&#x4E86;&#x5E73;&#x53F0;&#x7684;ScrollView&#xFF08;&#x6EDA;&#x52A8;&#x89C6;&#x56FE;&#xFF09;&#x7684;&#x7EC4;&#x4EF6;&#xFF0C;&#x540C;&#x65F6;&#x8FD8;&#x96C6;&#x6210;&#x4E86;&#x89E6;&#x6478;&#x9501;&#x5B9A;&#x7684;&#x201C;&#x54CD;&#x5E94;&#x8005;&#x201D;&#x7CFB;&#x7EDF;&#x3002;</p>
+<p>&#x8BB0;&#x4F4F;ScrollView&#x5FC5;&#x987B;&#x6709;&#x4E00;&#x4E2A;&#x786E;&#x5B9A;&#x7684;&#x9AD8;&#x5EA6;&#x624D;&#x80FD;&#x6B63;&#x5E38;&#x5DE5;&#x4F5C;&#xFF0C;&#x56E0;&#x4E3A;&#x5B83;&#x5B9E;&#x9645;&#x4E0A;&#x6240;&#x505A;&#x7684;&#x5C31;&#x662F;&#x5C06;&#x4E00;&#x7CFB;&#x5217;&#x4E0D;&#x786E;&#x5B9A;&#x9AD8;&#x5EA6;&#x7684;&#x5B50;&#x7EC4;&#x4EF6;&#x88C5;&#x8FDB;&#x4E00;&#x4E2A;&#x786E;&#x5B9A;&#x9AD8;&#x5EA6;&#x7684;&#x5BB9;&#x5668;&#xFF08;&#x901A;&#x8FC7;&#x6EDA;&#x52A8;&#x64CD;&#x4F5C;&#xFF09;&#x3002;&#x8981;&#x7ED9;&#x4E00;&#x4E2A;ScrollView&#x786E;&#x5B9A;&#x4E00;&#x4E2A;&#x9AD8;&#x5EA6;&#x7684;&#x8BDD;&#xFF0C;&#x8981;&#x4E48;&#x76F4;&#x63A5;&#x7ED9;&#x5B83;&#x8BBE;&#x7F6E;&#x9AD8;&#x5EA6;&#xFF08;&#x4E0D;&#x5EFA;&#x8BAE;&#xFF09;&#xFF0C;&#x8981;&#x4E48;&#x786E;&#x5B9A;&#x6240;&#x6709;&#x7684;&#x7236;&#x5BB9;&#x5668;&#x90FD;&#x5DF2;&#x7ECF;&#x7ED1;&#x5B9A;&#x4E86;&#x9AD8;&#x5EA6;&#x3002;&#x5728;&#x89C6;&#x56FE;&#x6808;&#x7684;&#x4EFB;&#x610F;&#x4E00;&#x4E2A;&#x4F4D;&#x7F6E;&#x5FD8;&#x8BB0;&#x4F7F;&#x7528;<code>{flex:1}</code>&#x90FD;&#x4F1A;&#x5BFC;&#x81F4;&#x9519;&#x8BEF;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x5143;&#x7D20;&#x67E5;&#x770B;&#x5668;&#x6765;&#x67E5;&#x627E;&#x95EE;&#x9898;&#x7684;&#x539F;&#x56E0;&#x3002;</p>
+<p>ScrollView&#x5185;&#x90E8;&#x7684;&#x5176;&#x4ED6;&#x54CD;&#x5E94;&#x8005;&#x5C1A;&#x65E0;&#x6CD5;&#x963B;&#x6B62;ScrollView&#x672C;&#x8EAB;&#x6210;&#x4E3A;&#x54CD;&#x5E94;&#x8005;&#x3002;</p>
+<h3 id="&#x5C5E;&#x6027;">&#x5C5E;&#x6027;</h3>
+<div class="props">
+    <div class="prop">
+        <h4 class="propTitle" id="view-props-"><a class="anchor" name="view"></a><a href="view.html#props">View props...</a> <a class="hash-link" href="#view">#</a></h4>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="contentcontainerstyle-stylesheetproptypeviewstyleproptypes-"><a class="anchor" name="contentcontainerstyle"></a>contentContainerStyle <span class="propType">StyleSheetPropType(ViewStylePropTypes)</span> <a class="hash-link" href="#contentcontainerstyle">#</a></h4>
+        <div>
+            <p>&#x8FD9;&#x4E9B;&#x6837;&#x5F0F;&#x4F1A;&#x5E94;&#x7528;&#x5230;&#x4E00;&#x4E2A;&#x5185;&#x5C42;&#x7684;&#x5185;&#x5BB9;&#x5BB9;&#x5668;&#x4E0A;&#xFF0C;&#x6240;&#x6709;&#x7684;&#x5B50;&#x89C6;&#x56FE;&#x90FD;&#x4F1A;&#x5305;&#x88F9;&#x5728;&#x5185;&#x5BB9;&#x5BB9;&#x5668;&#x5185;&#x3002;&#x4F8B;&#x5B50;&#xFF1A;</p>
+            <p><pre class="markdown-highlight"><code class="language-javascript hljs"><span class="hljs-keyword">return</span> (
+    <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-title">ScrollView</span> <span class="hljs-attribute">contentContainerStyle</span>=<span class="hljs-value">{styles.contentContainer}</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">ScrollView</span>&gt;</span>
+  )</span>;
+  ...
+  <span class="hljs-keyword">var</span> styles = StyleSheet.create({
+    contentContainer: {
+      paddingVertical: <span class="hljs-number">20</span>
+    }
+  });
+</code></pre></p>
+        </div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="horizontal-bool-"><a class="anchor" name="horizontal"></a>horizontal <span class="propType">bool</span> <a class="hash-link" href="#horizontal">#</a></h4>
+        <div>
+            <p>&#x5F53;&#x6B64;&#x5C5E;&#x6027;&#x4E3A;true&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x6240;&#x6709;&#x7684;&#x7684;&#x5B50;&#x89C6;&#x56FE;&#x4F1A;&#x5728;&#x6C34;&#x5E73;&#x65B9;&#x5411;&#x4E0A;&#x6392;&#x6210;&#x4E00;&#x884C;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x9ED8;&#x8BA4;&#x7684;&#x5728;&#x5782;&#x76F4;&#x65B9;&#x5411;&#x4E0A;&#x6392;&#x6210;&#x4E00;&#x5217;&#x3002;&#x9ED8;&#x8BA4;&#x503C;&#x4E3A;false&#x3002;</p>
+        </div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="keyboarddismissmode-enumnone-interactive-ondrag-"><a class="anchor" name="keyboarddismissmode"></a>keyboardDismissMode <span class="propType">enum(&apos;none&apos;, &quot;interactive&quot;, &apos;on-drag&apos;)</span> <a class="hash-link" href="#keyboarddismissmode">#</a></h4>
+        <div>
+            <p>&#x7528;&#x6237;&#x62D6;&#x62FD;&#x6EDA;&#x52A8;&#x89C6;&#x56FE;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x662F;&#x5426;&#x8981;&#x9690;&#x85CF;&#x8F6F;&#x952E;&#x76D8;&#x3002;</p>
+            <ul>
+            <li><p><code>none</code>&#xFF08;&#x9ED8;&#x8BA4;&#x503C;&#xFF09;&#xFF0C;&#x62D6;&#x62FD;&#x65F6;&#x4E0D;&#x9690;&#x85CF;&#x8F6F;&#x952E;&#x76D8;&#x3002;</p></li>
+            <li><p><code>on-drag</code> &#x5F53;&#x62D6;&#x62FD;&#x5F00;&#x59CB;&#x7684;&#x65F6;&#x5019;&#x9690;&#x85CF;&#x8F6F;&#x952E;&#x76D8;&#x3002;</p></li>
+            <li><p><code>interactive</code> &#x8F6F;&#x952E;&#x76D8;&#x4F34;&#x968F;&#x62D6;&#x62FD;&#x64CD;&#x4F5C;&#x540C;&#x6B65;&#x5730;&#x6D88;&#x5931;&#xFF0C;&#x5E76;&#x4E14;&#x5982;&#x679C;&#x5F80;&#x4E0A;&#x6ED1;&#x52A8;&#x4F1A;&#x6062;&#x590D;&#x952E;&#x76D8;&#x3002;&#x5B89;&#x5353;&#x8BBE;&#x5907;&#x4E0A;&#x4E0D;&#x652F;&#x6301;&#x8FD9;&#x4E2A;&#x9009;&#x9879;&#xFF0C;&#x4F1A;&#x8868;&#x73B0;&#x7684;&#x548C;<code>none</code>&#x4E00;&#x6837;&#x3002;</p></li>
+            </ul>
+        </div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="keyboardshouldpersisttaps-bool-"><a class="anchor" name="keyboardshouldpersisttaps"></a>keyboardShouldPersistTaps <span class="propType">bool</span> <a class="hash-link" href="#keyboardshouldpersisttaps">#</a></h4>
+        <div>
+            <p>&#x5F53;&#x6B64;&#x5C5E;&#x6027;&#x4E3A;false&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x5728;&#x8F6F;&#x952E;&#x76D8;&#x6FC0;&#x6D3B;&#x4E4B;&#x540E;&#xFF0C;&#x70B9;&#x51FB;&#x7126;&#x70B9;&#x6587;&#x672C;&#x8F93;&#x5165;&#x6846;&#x4EE5;&#x5916;&#x7684;&#x5730;&#x65B9;&#xFF0C;&#x952E;&#x76D8;&#x5C31;&#x4F1A;&#x9690;&#x85CF;&#x3002;&#x5982;&#x679C;&#x4E3A;true&#xFF0C;&#x6EDA;&#x52A8;&#x89C6;&#x56FE;&#x4E0D;&#x4F1A;&#x54CD;&#x5E94;&#x70B9;&#x51FB;&#x64CD;&#x4F5C;&#xFF0C;&#x5E76;&#x4E14;&#x952E;&#x76D8;&#x4E0D;&#x4F1A;&#x81EA;&#x52A8;&#x6D88;&#x5931;&#x3002;&#x9ED8;&#x8BA4;&#x503C;&#x4E3A;false&#x3002;</p>
+        </div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="onscroll-function-"><a class="anchor" name="onscroll"></a>onScroll <span class="propType">function</span> <a class="hash-link" href="#onscroll">#</a></h4>
+        <div>
+            <p>&#x5728;&#x6EDA;&#x52A8;&#x7684;&#x8FC7;&#x7A0B;&#x4E2D;&#xFF0C;&#x6BCF;&#x5E27;&#x6700;&#x591A;&#x8C03;&#x7528;&#x4E00;&#x6B21;&#x6B64;&#x56DE;&#x8C03;&#x51FD;&#x6570;&#x3002;&#x8C03;&#x7528;&#x7684;&#x9891;&#x7387;&#x53EF;&#x4EE5;&#x7528;<code>scrollEventThrottle</code>&#x5C5E;&#x6027;&#x6765;&#x63A7;&#x5236;&#x3002;</p>
+        </div>
+    </div>
+    <div class="prop"><h4 class="propTitle" id="refreshcontrol-element-"><a class="anchor" name="refreshcontrol"></a>refreshControl <span class="propType">element</span> <a class="hash-link" href="#refreshcontrol">#</a></h4>
+    <div><p>&#x6307;&#x5B9A;<a href="refreshcontrol.html">RefreshControl</a>&#x7EC4;&#x4EF6;&#xFF0C;&#x7528;&#x4E8E;&#x4E3A;ScrollView&#x63D0;&#x4F9B;&#x4E0B;&#x62C9;&#x5237;&#x65B0;&#x529F;&#x80FD;&#x3002;</p></div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="removeclippedsubviews-bool-"><a class="anchor" name="removeclippedsubviews"></a>removeClippedSubviews <span class="propType">bool</span> <a class="hash-link" href="#removeclippedsubviews">#</a></h4>
+        <div>
+            <p>&#xFF08;&#x5B9E;&#x9A8C;&#x7279;&#x6027;&#xFF09;&#xFF1A;&#x5F53;&#x6B64;&#x5C5E;&#x6027;&#x4E3A;true&#x65F6;&#xFF0C;&#x5C4F;&#x5E55;&#x4E4B;&#x5916;&#x7684;&#x5B50;&#x89C6;&#x56FE;&#xFF08;&#x5B50;&#x89C6;&#x56FE;&#x7684;<code>overflow</code>&#x6837;&#x5F0F;&#x9700;&#x8981;&#x8BBE;&#x4E3A;<code>hidden</code>&#xFF09;&#x4F1A;&#x88AB;&#x79FB;&#x9664;&#x3002;&#x8FD9;&#x4E2A;&#x53EF;&#x4EE5;&#x63D0;&#x5347;&#x5927;&#x5217;&#x8868;&#x7684;&#x6EDA;&#x52A8;&#x6027;&#x80FD;&#x3002;&#x9ED8;&#x8BA4;&#x503C;&#x4E3A;true&#x3002;</p>
+        </div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="showshorizontalscrollindicator-bool-"><a class="anchor" name="showshorizontalscrollindicator"></a>showsHorizontalScrollIndicator <span class="propType">bool</span> <a class="hash-link" href="#showshorizontalscrollindicator">#</a></h4>
+        <div>
+            <p>&#x5F53;&#x6B64;&#x5C5E;&#x6027;&#x4E3A;true&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x663E;&#x793A;&#x4E00;&#x4E2A;&#x5782;&#x76F4;&#x65B9;&#x5411;&#x7684;&#x6EDA;&#x52A8;&#x6761;&#x3002;</p>
+        </div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="showsverticalscrollindicator-bool-"><a class="anchor" name="showsverticalscrollindicator"></a>showsVerticalScrollIndicator <span class="propType">bool</span> <a class="hash-link" href="#showsverticalscrollindicator">#</a></h4>
+        <div>
+            <p>&#x5F53;&#x6B64;&#x5C5E;&#x6027;&#x4E3A;true&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x663E;&#x793A;&#x4E00;&#x4E2A;&#x6C34;&#x5E73;&#x65B9;&#x5411;&#x7684;&#x6EDA;&#x52A8;&#x6761;&#x3002;</p>
+        </div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="style-style-"><a class="anchor" name="style"></a>style <span class="propType">style</span> <a class="hash-link" href="#style">#</a></h4>
+        <div class="compactProps">
+            <div class="prop">
+                <h6 class="propTitle" id="flexbox"><a href="flexbox.html#proptypes">Flexbox...</a></h6>
+            </div>
+            <div class="prop">
+                <h6 class="propTitle" id="transforms"><a href="transforms.html#proptypes">Transforms...</a></h6>
+            </div>
+            <div class="prop">
+                <h6 class="propTitle" id="backfacevisibility-enumvisible-hidden">backfaceVisibility <span class="propType">enum(&apos;visible&apos;, &apos;hidden&apos;)</span></h6>
+            </div>
+            <div class="prop">
+                <h6 class="propTitle" id="backgroundcolor-string">backgroundColor <span class="propType">string</span></h6>
+            </div>
+            <div class="prop">
+                <h6 class="propTitle" id="bordercolor-string">borderColor <span class="propType">string</span></h6>
+            </div>
+            <div class="prop">
+                <h6 class="propTitle" id="bordertopcolor-string">borderTopColor <span class="propType">string</span></h6>
+            </div>
+            <div class="prop">
+                <h6 class="propTitle" id="borderrightcolor-string">borderRightColor <span class="propType">string</span></h6>
+            </div>
+            <div class="prop">
+                <h6 class="propTitle" id="borderbottomcolor-string">borderBottomColor <span class="propType">string</span></h6>
+            </div>
+            <div class="prop">
+                <h6 class="propTitle" id="borderleftcolor-string">borderLeftColor <span class="propType">string</span></h6>
+            </div>
+            <div class="prop">
+                <h6 class="propTitle" id="borderradius-number">borderRadius <span class="propType">number</span></h6>
+            </div>
+            <div class="prop">
+                <h6 class="propTitle" id="bordertopleftradius-number">borderTopLeftRadius <span class="propType">number</span></h6>
+            </div>
+            <div class="prop">
+                <h6 class="propTitle" id="bordertoprightradius-number">borderTopRightRadius <span class="propType">number</span></h6>
+            </div>
+            <div class="prop">
+                <h6 class="propTitle" id="borderbottomleftradius-number">borderBottomLeftRadius <span class="propType">number</span></h6>
+            </div>
+            <div class="prop">
+                <h6 class="propTitle" id="borderbottomrightradius-number">borderBottomRightRadius <span class="propType">number</span></h6>
+            </div>
+            <div class="prop">
+                <h6 class="propTitle" id="borderstyle-enumsolid-dotted-dashed">borderStyle <span class="propType">enum(&apos;solid&apos;, &apos;dotted&apos;, &apos;dashed&apos;)</span></h6>
+            </div>
+            <div class="prop">
+                <h6 class="propTitle" id="borderwidth-number">borderWidth <span class="propType">number</span></h6>
+            </div>
+            <div class="prop">
+                <h6 class="propTitle" id="bordertopwidth-number">borderTopWidth <span class="propType">number</span></h6>
+            </div>
+            <div class="prop">
+                <h6 class="propTitle" id="borderrightwidth-number">borderRightWidth <span class="propType">number</span></h6>
+            </div>
+            <div class="prop">
+                <h6 class="propTitle" id="borderbottomwidth-number">borderBottomWidth <span class="propType">number</span></h6>
+            </div>
+            <div class="prop">
+                <h6 class="propTitle" id="borderleftwidth-number">borderLeftWidth <span class="propType">number</span></h6>
+            </div>
+            <div class="prop">
+                <h6 class="propTitle" id="opacity-number">opacity <span class="propType">number</span></h6>
+            </div>
+            <div class="prop">
+                <h6 class="propTitle" id="overflow-enumvisible-hidden">overflow <span class="propType">enum(&apos;visible&apos;, &apos;hidden&apos;)</span></h6>
+            </div>
+            <div class="prop">
+                <h6 class="propTitle" id="shadowcolor-string">shadowColor <span class="propType">string</span></h6>
+            </div>
+            <div class="prop">
+                <h6 class="propTitle" id="shadowoffset-width-number-height-number">shadowOffset <span class="propType">{width: number, height: number}</span></h6>
+            </div>
+            <div class="prop">
+                <h6 class="propTitle" id="shadowopacity-number">shadowOpacity <span class="propType">number</span></h6>
+            </div>
+            <div class="prop">
+                <h6 class="propTitle" id="shadowradius-number">shadowRadius <span class="propType">number</span></h6>
+            </div>
+        </div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="iosalwaysbouncehorizontal-bool-"><a class="anchor" name="alwaysbouncehorizontal"></a><span class="platform">ios</span>alwaysBounceHorizontal <span class="propType">bool</span> <a class="hash-link" href="#alwaysbouncehorizontal">#</a></h4>
+        <div>
+            <p>&#x5F53;&#x6B64;&#x5C5E;&#x6027;&#x4E3A;true&#x65F6;&#xFF0C;&#x6C34;&#x5E73;&#x65B9;&#x5411;&#x5373;&#x4F7F;&#x5185;&#x5BB9;&#x6BD4;&#x6EDA;&#x52A8;&#x89C6;&#x56FE;&#x672C;&#x8EAB;&#x8FD8;&#x8981;&#x5C0F;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x5F39;&#x6027;&#x5730;&#x62C9;&#x52A8;&#x4E00;&#x622A;&#x3002;&#x5F53;<code>horizontal={true}</code>&#x65F6;&#x9ED8;&#x8BA4;&#x503C;&#x4E3A;true&#xFF0C;&#x5426;&#x5219;&#x4E3A;false&#x3002;</p>
+        </div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="iosalwaysbouncevertical-bool-"><a class="anchor" name="alwaysbouncevertical"></a><span class="platform">ios</span>alwaysBounceVertical <span class="propType">bool</span> <a class="hash-link" href="#alwaysbouncevertical">#</a></h4>
+        <div>
+            <p>&#x5F53;&#x6B64;&#x5C5E;&#x6027;&#x4E3A;true&#x65F6;&#xFF0C;&#x5782;&#x76F4;&#x65B9;&#x5411;&#x5373;&#x4F7F;&#x5185;&#x5BB9;&#x6BD4;&#x6EDA;&#x52A8;&#x89C6;&#x56FE;&#x672C;&#x8EAB;&#x8FD8;&#x8981;&#x5C0F;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x5F39;&#x6027;&#x5730;&#x62C9;&#x52A8;&#x4E00;&#x622A;&#x3002;&#x5F53;<code>horizontal={true}</code>&#x65F6;&#x9ED8;&#x8BA4;&#x503C;&#x4E3A;false&#xFF0C;&#x5426;&#x5219;&#x4E3A;true&#x3002;</p>
+        </div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="iosautomaticallyadjustcontentinsets-bool-"><a class="anchor" name="automaticallyadjustcontentinsets"></a><span class="platform">ios</span>automaticallyAdjustContentInsets <span class="propType">bool</span> <a class="hash-link" href="#automaticallyadjustcontentinsets">#</a></h4>
+        <div>
+            <p>&#x5982;&#x679C;&#x6EDA;&#x52A8;&#x89C6;&#x56FE;&#x653E;&#x5728;&#x4E00;&#x4E2A;&#x5BFC;&#x822A;&#x6761;&#x6216;&#x8005;&#x5DE5;&#x5177;&#x6761;&#x540E;&#x9762;&#x7684;&#x65F6;&#x5019;&#xFF0C;iOS&#x7CFB;&#x7EDF;&#x662F;&#x5426;&#x8981;&#x81EA;&#x52A8;&#x8C03;&#x6574;&#x5185;&#x5BB9;&#x7684;&#x8303;&#x56F4;&#x3002;&#x9ED8;&#x8BA4;&#x503C;&#x4E3A;true&#x3002;&#xFF08;&#x8BD1;&#x6CE8;&#xFF1A;&#x5982;&#x679C;&#x4F60;&#x7684;ScrollView&#x6216;ListView&#x7684;&#x5934;&#x90E8;&#x51FA;&#x73B0;&#x83AB;&#x540D;&#x5176;&#x5999;&#x7684;&#x7A7A;&#x767D;&#xFF0C;&#x5C1D;&#x8BD5;&#x5C06;&#x6B64;&#x5C5E;&#x6027;&#x7F6E;&#x4E3A;false&#xFF09;</p>
+        </div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="iosbounces-bool-"><a class="anchor" name="bounces"></a><span class="platform">ios</span>bounces <span class="propType">bool</span> <a class="hash-link" href="#bounces">#</a></h4>
+        <div>
+            <p>&#x5F53;&#x503C;&#x4E3A;true&#x65F6;&#xFF0C;&#x5982;&#x679C;&#x5185;&#x5BB9;&#x8303;&#x56F4;&#x6BD4;&#x6EDA;&#x52A8;&#x89C6;&#x56FE;&#x672C;&#x8EAB;&#x5927;&#xFF0C;&#x5728;&#x5230;&#x8FBE;&#x5185;&#x5BB9;&#x672B;&#x5C3E;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x53EF;&#x4EE5;&#x5F39;&#x6027;&#x5730;&#x62C9;&#x52A8;&#x4E00;&#x622A;&#x3002;&#x5982;&#x679C;&#x4E3A;false&#xFF0C;&#x5C3E;&#x90E8;&#x7684;&#x6240;&#x6709;&#x5F39;&#x6027;&#x90FD;&#x4F1A;&#x88AB;&#x7981;&#x7528;&#xFF0C;&#x5373;&#x4F7F;<code>alwaysBounce*</code>&#x5C5E;&#x6027;&#x4E3A;true&#x3002;&#x9ED8;&#x8BA4;&#x503C;&#x4E3A;true&#x3002;</p>
+        </div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="iosbounceszoom-bool-"><a class="anchor" name="bounceszoom"></a><span class="platform">ios</span>bouncesZoom <span class="propType">bool</span> <a class="hash-link" href="#bounceszoom">#</a></h4>
+        <div>
+            <p>&#x5F53;&#x503C;&#x4E3A;true&#x65F6;&#xFF0C;&#x4F7F;&#x7528;&#x624B;&#x52BF;&#x7F29;&#x653E;&#x5185;&#x5BB9;&#x53EF;&#x4EE5;&#x8D85;&#x8FC7;min/max&#x7684;&#x9650;&#x5236;&#xFF0C;&#x7136;&#x540E;&#x5728;&#x624B;&#x6307;&#x62AC;&#x8D77;&#x4E4B;&#x540E;&#x5F39;&#x56DE;min/max&#x7684;&#x7F29;&#x653E;&#x6BD4;&#x4F8B;&#x3002;&#x5426;&#x5219;&#x7684;&#x8BDD;&#xFF0C;&#x7F29;&#x653E;&#x4E0D;&#x80FD;&#x8D85;&#x8FC7;&#x9650;&#x5236;&#x3002;</p>
+        </div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="ioscancancelcontenttouches-bool-"><a class="anchor" name="cancancelcontenttouches"></a><span class="platform">ios</span>canCancelContentTouches <span class="propType">bool</span> <a class="hash-link" href="#cancancelcontenttouches">#</a></h4>
+        <div>
+            <p>&#x5F53;&#x503C;&#x4E3A;false&#x65F6;&#xFF0C;&#x4E00;&#x65E6;&#x6709;&#x5B50;&#x8282;&#x70B9;&#x54CD;&#x5E94;&#x89E6;&#x6478;&#x64CD;&#x4F5C;&#xFF0C;&#x5373;&#x4F7F;&#x624B;&#x6307;&#x5F00;&#x59CB;&#x79FB;&#x52A8;&#x4E5F;&#x4E0D;&#x4F1A;&#x62D6;&#x52A8;&#x6EDA;&#x52A8;&#x89C6;&#x56FE;&#x3002;&#x9ED8;&#x8BA4;&#x503C;&#x4E3A;true&#xFF08;&#x5728;&#x4EE5;&#x4E0A;&#x60C5;&#x51B5;&#x4E0B;&#x53EF;&#x4EE5;&#x62D6;&#x52A8;&#x6EDA;&#x52A8;&#x89C6;&#x56FE;&#x3002;&#xFF09;</p>
+        </div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="ioscentercontent-bool-"><a class="anchor" name="centercontent"></a><span class="platform">ios</span>centerContent <span class="propType">bool</span> <a class="hash-link" href="#centercontent">#</a></h4>
+        <div>
+            <p>&#x5F53;&#x503C;&#x4E3A;true&#x65F6;&#xFF0C;&#x5982;&#x679C;&#x6EDA;&#x52A8;&#x89C6;&#x56FE;&#x7684;&#x5185;&#x5BB9;&#x6BD4;&#x89C6;&#x56FE;&#x672C;&#x8EAB;&#x5C0F;&#xFF0C;&#x5219;&#x4F1A;&#x81EA;&#x52A8;&#x628A;&#x5185;&#x5BB9;&#x5C45;&#x4E2D;&#x653E;&#x7F6E;&#x3002;&#x5F53;&#x5185;&#x5BB9;&#x6BD4;&#x6EDA;&#x52A8;&#x89C6;&#x56FE;&#x5927;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x6B64;&#x5C5E;&#x6027;&#x6CA1;&#x6709;&#x4F5C;&#x7528;&#x3002;&#x9ED8;&#x8BA4;&#x503C;&#x4E3A;false&#x3002;</p>
+        </div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="ioscontentinset-top-number-left-number-bottom-number-right-number-"><a class="anchor" name="contentinset"></a><span class="platform">ios</span>contentInset <span class="propType">{top: number, left: number, bottom: number, right: number}</span> <a class="hash-link" href="#contentinset">#</a></h4>
+        <div>
+            <p>&#x5185;&#x5BB9;&#x8303;&#x56F4;&#x76F8;&#x5BF9;&#x6EDA;&#x52A8;&#x89C6;&#x56FE;&#x8FB9;&#x7F18;&#x7684;&#x5750;&#x6807;&#x3002;&#x9ED8;&#x8BA4;&#x4E3A;<code>{0, 0, 0, 0}</code>&#x3002;</p>
+        </div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="ioscontentoffset-pointproptype-"><a class="anchor" name="contentoffset"></a><span class="platform">ios</span>contentOffset <span class="propType">PointPropType</span> <a class="hash-link" href="#contentoffset">#</a></h4>
+        <div>
+            <p>&#x7528;&#x6765;&#x624B;&#x52A8;&#x8BBE;&#x7F6E;&#x521D;&#x59CB;&#x7684;&#x6EDA;&#x52A8;&#x5750;&#x6807;&#x3002;&#x9ED8;&#x8BA4;&#x503C;&#x4E3A;<code>{x: 0, y: 0}</code>&#x3002;</p>
+        </div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="iosdecelerationrate-number-"><a class="anchor" name="decelerationrate"></a><span class="platform">ios</span>decelerationRate <span class="propType">number</span> <a class="hash-link" href="#decelerationrate">#</a></h4>
+        <div>
+            <p>&#x4E00;&#x4E2A;&#x6D6E;&#x70B9;&#x6570;&#xFF0C;&#x7528;&#x4E8E;&#x51B3;&#x5B9A;&#x5F53;&#x7528;&#x6237;&#x62AC;&#x8D77;&#x624B;&#x6307;&#x4E4B;&#x540E;&#xFF0C;&#x6EDA;&#x52A8;&#x89C6;&#x56FE;&#x51CF;&#x901F;&#x505C;&#x4E0B;&#x7684;&#x901F;&#x5EA6;&#x3002;&#x5E38;&#x89C1;&#x7684;&#x9009;&#x9879;&#x6709;&#xFF1A;</p>
+            <ul>
+            <li><p><code>Normal</code>: 0.998 (&#x9ED8;&#x8BA4;&#x503C;)</p></li>
+            <li><p><code>Fast</code>: 0.9</p></li>
+            </ul>
+        </div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="iosdirectionallockenabled-bool-"><a class="anchor" name="directionallockenabled"></a><span class="platform">ios</span>directionalLockEnabled <span class="propType">bool</span> <a class="hash-link" href="#directionallockenabled">#</a></h4>
+        <div>
+            <p>&#x5F53;&#x503C;&#x4E3A;&#x771F;&#x65F6;&#xFF0C;&#x6EDA;&#x52A8;&#x89C6;&#x56FE;&#x5728;&#x62D6;&#x62FD;&#x7684;&#x65F6;&#x5019;&#x4F1A;&#x9501;&#x5B9A;&#x53EA;&#x6709;&#x5782;&#x76F4;&#x6216;&#x6C34;&#x5E73;&#x65B9;&#x5411;&#x53EF;&#x4EE5;&#x6EDA;&#x52A8;&#x3002;&#x9ED8;&#x8BA4;&#x503C;&#x4E3A;false&#x3002;</p>
+        </div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="iosmaximumzoomscale-number-"><a class="anchor" name="maximumzoomscale"></a><span class="platform">ios</span>maximumZoomScale <span class="propType">number</span> <a class="hash-link" href="#maximumzoomscale">#</a></h4>
+        <div>
+            <p>&#x5141;&#x8BB8;&#x7684;&#x6700;&#x5927;&#x7F29;&#x653E;&#x6BD4;&#x4F8B;&#x3002;&#x9ED8;&#x8BA4;&#x503C;&#x4E3A;1.0&#x3002;</p>
+        </div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="iosminimumzoomscale-number-"><a class="anchor" name="minimumzoomscale"></a><span class="platform">ios</span>minimumZoomScale <span class="propType">number</span> <a class="hash-link" href="#minimumzoomscale">#</a></h4>
+        <div>
+            <p>&#x5141;&#x8BB8;&#x7684;&#x6700;&#x5C0F;&#x7F29;&#x653E;&#x6BD4;&#x4F8B;&#x3002;&#x9ED8;&#x8BA4;&#x503C;&#x4E3A;1.0&#x3002;</p>
+        </div>
+    </div>
+    <div class="prop">
+    <h4 class="propTitle" id="iosonrefreshstart-function-"><a class="anchor" name="onrefreshstart"></a><span class="platform">ios</span>onRefreshStart <span class="propType">function</span> <a class="hash-link" href="#onrefreshstart">#</a></h4>
+    <div><p>&#x5982;&#x8BBE;&#x7F6E;&#x4E86;&#x6B64;&#x5C5E;&#x6027;&#xFF0C;&#x5219;&#x4F1A;&#x663E;&#x793A;&#x4E00;&#x4E2A;UIRefreshControl&#x3002;&#x53C2;&#x6570;&#x4E3A;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#xFF0C;&#x7528;&#x6765;&#x5728;&#x5408;&#x9002;&#x7684;&#x65F6;&#x5019;&#x6267;&#x884C;&#xFF0C;&#x4EE5;&#x505C;&#x6B62;UIRefreshControl&#x7684;&#x52A8;&#x753B;</p>
+<pre>
+<div class="prism language-javascript"><span class="token punctuation">(</span>endRefreshing<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">{</span>
+     <span class="token function">endRefreshing<span class="token punctuation">(</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></div></pre></div></div>
+
+    <div class="prop">
+        <h4 class="propTitle" id="iosonscrollanimationend-function-"><a class="anchor" name="onscrollanimationend"></a><span class="platform">ios</span>onScrollAnimationEnd <span class="propType">function</span> <a class="hash-link" href="#onscrollanimationend">#</a></h4>
+        <div>
+            <p>&#x5F53;&#x6EDA;&#x52A8;&#x52A8;&#x753B;&#x7ED3;&#x675F;&#x4E4B;&#x540E;&#x8C03;&#x7528;&#x6B64;&#x56DE;&#x8C03;&#x3002;</p>
+        </div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="iospagingenabled-bool-"><a class="anchor" name="pagingenabled"></a><span class="platform">ios</span>pagingEnabled <span class="propType">bool</span> <a class="hash-link" href="#pagingenabled">#</a></h4>
+        <div>
+            <p>&#x5F53;&#x503C;&#x4E3A;true&#x65F6;&#xFF0C;&#x6EDA;&#x52A8;&#x6761;&#x4F1A;&#x505C;&#x5728;&#x6EDA;&#x52A8;&#x89C6;&#x56FE;&#x7684;&#x5C3A;&#x5BF8;&#x7684;&#x6574;&#x6570;&#x500D;&#x4F4D;&#x7F6E;&#x3002;&#x8FD9;&#x4E2A;&#x53EF;&#x4EE5;&#x7528;&#x5728;&#x6C34;&#x5E73;&#x5206;&#x9875;&#x4E0A;&#x3002;&#x9ED8;&#x8BA4;&#x503C;&#x4E3A;false&#x3002;</p>
+        </div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="iosscrollenabled-bool-"><a class="anchor" name="scrollenabled"></a><span class="platform">ios</span>scrollEnabled <span class="propType">bool</span> <a class="hash-link" href="#scrollenabled">#</a></h4>
+        <div>
+            <p>&#x5F53;&#x503C;&#x4E3A;false&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x5185;&#x5BB9;&#x4E0D;&#x80FD;&#x6EDA;&#x52A8;&#xFF0C;&#x9ED8;&#x8BA4;&#x503C;&#x4E3A;true&#x3002;</p>
+        </div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="iosscrolleventthrottle-number-"><a class="anchor" name="scrolleventthrottle"></a><span class="platform">ios</span>scrollEventThrottle <span class="propType">number</span> <a class="hash-link" href="#scrolleventthrottle">#</a></h4>
+        <div>
+            <p>&#x8FD9;&#x4E2A;&#x5C5E;&#x6027;&#x63A7;&#x5236;&#x5728;&#x6EDA;&#x52A8;&#x8FC7;&#x7A0B;&#x4E2D;&#xFF0C;scroll&#x4E8B;&#x4EF6;&#x88AB;&#x8C03;&#x7528;&#x7684;&#x9891;&#x7387;&#xFF08;&#x5355;&#x4F4D;&#x662F;&#x6BCF;&#x79D2;&#x4E8B;&#x4EF6;&#x6570;&#x91CF;&#xFF09;&#x3002;&#x66F4;&#x5927;&#x7684;&#x6570;&#x503C;&#x80FD;&#x591F;&#x66F4;&#x53CA;&#x65F6;&#x7684;&#x8DDF;&#x8E2A;&#x6EDA;&#x52A8;&#x4F4D;&#x7F6E;&#xFF0C;&#x4E0D;&#x8FC7;&#x53EF;&#x80FD;&#x4F1A;&#x5E26;&#x6765;&#x6027;&#x80FD;&#x95EE;&#x9898;&#xFF0C;&#x56E0;&#x4E3A;&#x66F4;&#x591A;&#x7684;&#x4FE1;&#x606F;&#x4F1A;&#x901A;&#x8FC7;bridge&#x4F20;&#x9012;&#x3002;&#x9ED8;&#x8BA4;&#x503C;&#x4E3A;0&#xFF0C;&#x610F;&#x5473;&#x7740;&#x6BCF;&#x6B21;&#x89C6;&#x56FE;&#x88AB;&#x6EDA;&#x52A8;&#xFF0C;scroll&#x4E8B;&#x4EF6;&#x53EA;&#x4F1A;&#x88AB;&#x8C03;&#x7528;&#x4E00;&#x6B21;&#x3002;</p>
+        </div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="iosscrollindicatorinsets-top-number-left-number-bottom-number-right-number-"><a class="anchor" name="scrollindicatorinsets"></a><span class="platform">ios</span>scrollIndicatorInsets <span class="propType">{top: number, left: number, bottom: number, right: number}</span> <a class="hash-link" href="#scrollindicatorinsets">#</a></h4>
+        <div>
+            <p>&#x51B3;&#x5B9A;&#x6EDA;&#x52A8;&#x6761;&#x8DDD;&#x79BB;&#x89C6;&#x56FE;&#x8FB9;&#x7F18;&#x7684;&#x5750;&#x6807;&#x3002;&#x8FD9;&#x4E2A;&#x503C;&#x5E94;&#x8BE5;&#x548C;<code>contentInset</code>&#x4E00;&#x6837;&#x3002;&#x9ED8;&#x8BA4;&#x503C;&#x4E3A;<code>{0, 0, 0, 0}</code>&#x3002;</p>
+        </div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="iosscrollstotop-bool-"><a class="anchor" name="scrollstotop"></a><span class="platform">ios</span>scrollsToTop <span class="propType">bool</span> <a class="hash-link" href="#scrollstotop">#</a></h4>
+        <div>
+            <p>&#x5F53;&#x6B64;&#x503C;&#x4E3A;true&#x65F6;&#xFF0C;&#x70B9;&#x51FB;&#x72B6;&#x6001;&#x680F;&#x7684;&#x65F6;&#x5019;&#x89C6;&#x56FE;&#x4F1A;&#x6EDA;&#x52A8;&#x5230;&#x9876;&#x90E8;&#x3002;&#x9ED8;&#x8BA4;&#x503C;&#x4E3A;true&#x3002;</p>
+        </div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="iossnaptoalignment-enumstart-center-end-"><a class="anchor" name="snaptoalignment"></a><span class="platform">ios</span>snapToAlignment <span class="propType">enum(&apos;start&apos;, &quot;center&quot;, &apos;end&apos;)</span> <a class="hash-link" href="#snaptoalignment">#</a></h4>
+        <div>
+            <p>&#x5F53;&#x8BBE;&#x7F6E;&#x4E86;<code>snapToInterval</code>&#xFF0C;<code>snapToAlignment</code>&#x4F1A;&#x5B9A;&#x4E49;&#x505C;&#x9A7B;&#x70B9;&#x4E0E;&#x6EDA;&#x52A8;&#x89C6;&#x56FE;&#x4E4B;&#x95F4;&#x7684;&#x5173;&#x7CFB;&#x3002;</p>
+            <ul>
+            <li><p><code>start</code> (&#x9ED8;&#x8BA4;) &#x4F1A;&#x5C06;&#x505C;&#x9A7B;&#x70B9;&#x5BF9;&#x9F50;&#x5728;&#x5DE6;&#x4FA7;&#xFF08;&#x6C34;&#x5E73;&#xFF09;&#x6216;&#x9876;&#x90E8;&#xFF08;&#x5782;&#x76F4;&#xFF09;</p></li>
+            <li><p><code>center</code> &#x4F1A;&#x5C06;&#x505C;&#x9A7B;&#x70B9;&#x5BF9;&#x9F50;&#x5230;&#x4E2D;&#x95F4;</p></li>
+            <li><p><code>end</code> &#x4F1A;&#x5C06;&#x505C;&#x9A7B;&#x70B9;&#x5BF9;&#x9F50;&#x5230;&#x53F3;&#x4FA7;&#xFF08;&#x6C34;&#x5E73;&#xFF09;&#x6216;&#x5E95;&#x90E8;&#xFF08;&#x5782;&#x76F4;&#xFF09;</p></li>
+            </ul>
+        </div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="iossnaptointerval-number-"><a class="anchor" name="snaptointerval"></a><span class="platform">ios</span>snapToInterval <span class="propType">number</span> <a class="hash-link" href="#snaptointerval">#</a></h4>
+        <div>
+            <p>&#x5F53;&#x8BBE;&#x7F6E;&#x4E86;&#x6B64;&#x5C5E;&#x6027;&#x65F6;&#xFF0C;&#x4F1A;&#x8BA9;&#x6EDA;&#x52A8;&#x89C6;&#x56FE;&#x6EDA;&#x52A8;&#x505C;&#x6B62;&#x540E;&#xFF0C;&#x505C;&#x6B62;&#x5728;<code>snapToInterval</code>&#x7684;&#x500D;&#x6570;&#x7684;&#x4F4D;&#x7F6E;&#x3002;&#x8FD9;&#x53EF;&#x4EE5;&#x5728;&#x4E00;&#x4E9B;&#x5B50;&#x89C6;&#x56FE;&#x6BD4;&#x6EDA;&#x52A8;&#x89C6;&#x56FE;&#x672C;&#x8EAB;&#x5C0F;&#x7684;&#x65F6;&#x5019;&#x7528;&#x4E8E;&#x5B9E;&#x73B0;&#x5206;&#x9875;&#x663E;&#x793A;&#x3002;&#x4E0E;<code>snapToAlignment</code>&#x7EC4;&#x5408;&#x4F7F;&#x7528;&#x3002;</p>
+        </div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="iosstickyheaderindices-number-"><a class="anchor" name="stickyheaderindices"></a><span class="platform">ios</span>stickyHeaderIndices <span class="propType">[number]</span> <a class="hash-link" href="#stickyheaderindices">#</a></h4>
+        <div>
+            <p>&#x4E00;&#x4E2A;&#x5B50;&#x89C6;&#x56FE;&#x4E0B;&#x6807;&#x7684;&#x6570;&#x7EC4;&#xFF0C;&#x7528;&#x4E8E;&#x51B3;&#x5B9A;&#x54EA;&#x4E9B;&#x6210;&#x5458;&#x4F1A;&#x5728;&#x6EDA;&#x52A8;&#x4E4B;&#x540E;&#x56FA;&#x5B9A;&#x5728;&#x5C4F;&#x5E55;&#x9876;&#x7AEF;&#x3002;&#x4E3E;&#x4E2A;&#x4F8B;&#x5B50;&#xFF0C;&#x4F20;&#x9012;<code>stickyHeaderIndices={[0]}</code>&#x4F1A;&#x8BA9;&#x7B2C;&#x4E00;&#x4E2A;&#x6210;&#x5458;&#x56FA;&#x5B9A;&#x5728;&#x6EDA;&#x52A8;&#x89C6;&#x56FE;&#x9876;&#x7AEF;&#x3002;&#x8FD9;&#x4E2A;&#x5C5E;&#x6027;&#x4E0D;&#x80FD;&#x548C;<code>horizontal={true}</code>&#x4E00;&#x8D77;&#x4F7F;&#x7528;&#x3002;</p>
+        </div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="ioszoomscale-number-"><a class="anchor" name="zoomscale"></a><span class="platform">ios</span>zoomScale <span class="propType">number</span> <a class="hash-link" href="#zoomscale">#</a></h4>
+        <div>
+            <p>&#x6EDA;&#x52A8;&#x89C6;&#x56FE;&#x5185;&#x5BB9;&#x521D;&#x59CB;&#x7684;&#x7F29;&#x653E;&#x6BD4;&#x4F8B;&#x3002;&#x9ED8;&#x8BA4;&#x503C;&#x4E3A;1.0&#x3002;</p>
+        </div>
+    </div>
+</div>
+
+<h3 id="&#x6837;&#x4F8B;">&#x6837;&#x4F8B;</h3>
+<pre><code class="lang-javascript"><span class="hljs-pi">&apos;use strict&apos;</span>;
+
+<span class="hljs-keyword">var</span> React = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;react-native&apos;</span>);
+<span class="hljs-keyword">var</span> {
+  ScrollView,
+  StyleSheet,
+  View,
+  Image
+} = React;
+
+exports.displayName = (<span class="hljs-literal">undefined</span>: ?string);
+exports.title = <span class="hljs-string">&apos;&lt;ScrollView&gt;&apos;</span>;
+exports.description = <span class="hljs-string">&apos;Component that enables scrolling through child components&apos;</span>;
+exports.examples = [
+{
+  title: <span class="hljs-string">&apos;&lt;ScrollView&gt;&apos;</span>,
+  description: <span class="hljs-string">&apos;To make content scrollable, wrap it within a &lt;ScrollView&gt; component&apos;</span>,
+  render: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">return</span> (
+      <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-title">ScrollView</span>
+        <span class="hljs-attribute">automaticallyAdjustContentInsets</span>=<span class="hljs-value">{false}</span>
+        <span class="hljs-attribute">onScroll</span>=<span class="hljs-value">{()</span> =&gt;</span> { console.log(&apos;onScroll!&apos;); }}
+        scrollEventThrottle={200}
+        style={styles.scrollView}&gt;
+        {THUMBS.map(createThumbRow)}
+      <span class="hljs-tag">&lt;/<span class="hljs-title">ScrollView</span>&gt;</span>
+    )</span>;
+  }
+}, {
+  title: <span class="hljs-string">&apos;&lt;ScrollView&gt; (horizontal = true)&apos;</span>,
+  description: <span class="hljs-string">&apos;You can display &lt;ScrollView&gt;\&apos;s child components horizontally rather than vertically&apos;</span>,
+  render: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">return</span> (
+      <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-title">ScrollView</span>
+        <span class="hljs-attribute">automaticallyAdjustContentInsets</span>=<span class="hljs-value">{false}</span>
+        <span class="hljs-attribute">horizontal</span>=<span class="hljs-value">{true}</span>
+        <span class="hljs-attribute">style</span>=<span class="hljs-value">{[styles.scrollView,</span> <span class="hljs-attribute">styles.horizontalScrollView</span>]}&gt;</span>
+        {THUMBS.map(createThumbRow)}
+      <span class="hljs-tag">&lt;/<span class="hljs-title">ScrollView</span>&gt;</span>
+    )</span>;
+  }
+}];
+
+<span class="hljs-keyword">var</span> Thumb = React.createClass({
+  shouldComponentUpdate: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">nextProps, nextState</span>) </span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;
+  },
+  render: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">return</span> (
+      <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-title">View</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">{styles.button}</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">Image</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">{styles.img}</span> <span class="hljs-attribute">source</span>=<span class="hljs-value">{{uri:this.props.uri}}</span> /&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-title">View</span>&gt;</span>
+    )</span>;
+  }
+});
+
+<span class="hljs-keyword">var</span> THUMBS = [<span class="hljs-string">&apos;https://fbcdn-dragon-a.akamaihd.net/hphotos-ak-ash3/t39.1997/p128x128/851549_767334479959628_274486868_n.png&apos;</span>, <span class="hljs-string">&apos;https://fbcdn-dragon-a.akamaihd.net/hphotos-ak-prn1/t39.1997/p128x128/851561_767334496626293_1958532586_n.png&apos;</span>, <span class="hljs-string">&apos;https://fbcdn-dragon-a.akamaihd.net/hphotos-ak-ash3/t39.1997/p128x128/851579_767334503292959_179092627_n.png&apos;</span>, <span class="hljs-string">&apos;https://fbcdn-dragon-a.akamaihd.net/hphotos-ak-prn1/t39.1997/p128x128/851589_767334513292958_1747022277_n.png&apos;</span>, <span class="hljs-string">&apos;https://fbcdn-dragon-a.akamaihd.net/hphotos-ak-prn1/t39.1997/p128x128/851563_767334559959620_1193692107_n.png&apos;</span>, <span class="hljs-string">&apos;https://fbcdn-dragon-a.akamaihd.net/hphotos-ak-prn1/t39.1997/p128x128/851593_767334566626286_1953955109_n.png&apos;</span>, <span class="hljs-string">&apos;https://fbcdn-dragon-a.akamaihd.net/hphotos-ak-prn1/t39.1997/p128x128/851591_767334523292957_797560749_n.png&apos;</span>, <span class="hljs-string">&apos;https://fbcdn-dragon-a.akamaihd.net/hphotos-ak-prn1/t39.1997/p128x128/851567_767334529959623_843148472_n.png&apos;</span>, <span class="hljs-string">&apos;https://fbcdn-dragon-a.akamaihd.net/hphotos-ak-prn1/t39.1997/p128x128/851548_767334489959627_794462220_n.png&apos;</span>, <span class="hljs-string">&apos;https://fbcdn-dragon-a.akamaihd.net/hphotos-ak-prn1/t39.1997/p128x128/851575_767334539959622_441598241_n.png&apos;</span>, <span class="hljs-string">&apos;https://fbcdn-dragon-a.akamaihd.net/hphotos-ak-ash3/t39.1997/p128x128/851573_767334549959621_534583464_n.png&apos;</span>, <span class="hljs-string">&apos;https://fbcdn-dragon-a.akamaihd.net/hphotos-ak-prn1/t39.1997/p128x128/851583_767334573292952_1519550680_n.png&apos;</span>];
+THUMBS = THUMBS.concat(THUMBS); <span class="hljs-comment">// double length of THUMBS</span>
+<span class="hljs-keyword">var</span> createThumbRow = (uri, i) =&gt; <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-title">Thumb</span> <span class="hljs-attribute">key</span>=<span class="hljs-value">{i}</span> <span class="hljs-attribute">uri</span>=<span class="hljs-value">{uri}</span> /&gt;</span>;</span>
+
+<span class="hljs-keyword">var</span> styles = StyleSheet.create({
+  scrollView: {
+    backgroundColor: <span class="hljs-string">&apos;#6A85B1&apos;</span>,
+    height: <span class="hljs-number">300</span>,
+  },
+  horizontalScrollView: {
+    height: <span class="hljs-number">120</span>,
+  },
+  containerPage: {
+    height: <span class="hljs-number">50</span>,
+    width: <span class="hljs-number">50</span>,
+    backgroundColor: <span class="hljs-string">&apos;#527FE4&apos;</span>,
+    padding: <span class="hljs-number">5</span>,
+  },
+  text: {
+    fontSize: <span class="hljs-number">20</span>,
+    color: <span class="hljs-string">&apos;#888888&apos;</span>,
+    left: <span class="hljs-number">80</span>,
+    top: <span class="hljs-number">20</span>,
+    height: <span class="hljs-number">40</span>,
+  },
+  button: {
+    margin: <span class="hljs-number">7</span>,
+    padding: <span class="hljs-number">5</span>,
+    alignItems: <span class="hljs-string">&apos;center&apos;</span>,
+    backgroundColor: <span class="hljs-string">&apos;#eaeaea&apos;</span>,
+    borderRadius: <span class="hljs-number">3</span>,
+  },
+  buttonContents: {
+    flexDirection: <span class="hljs-string">&apos;row&apos;</span>,
+    width: <span class="hljs-number">64</span>,
+    height: <span class="hljs-number">64</span>,
+  },
+  img: {
+    width: <span class="hljs-number">64</span>,
+    height: <span class="hljs-number">64</span>,
+  }
+});
+</code></pre>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../docs/refreshcontrol.html" class="navigation navigation-prev " aria-label="Previous page: RefreshControl"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../docs/segmentedcontrolios.html" class="navigation navigation-next " aria-label="Next page: SegmentedControllIOS"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>

@@ -1,0 +1,2117 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Image | React Native中文文档</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../docs/listview.html" />
+    
+    
+    <link rel="prev" href="../docs/drawerlayoutandroid.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="5.4"
+        data-chapter-title="Image"
+        data-filepath="docs/image.md"
+        data-basepath=".."
+        data-revision="Tue Jan 19 2016 17:58:59 GMT+0800 (CST)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" >
+            
+            <span><b>1.</b> 快速入门</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="docs/getting-started.html">
+            
+                
+                    <a href="../docs/getting-started.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        开始使用ReactNative
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="docs/android-setup.html">
+            
+                
+                    <a href="../docs/android-setup.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        安卓环境配置
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="docs/linux-windows-support.html">
+            
+                
+                    <a href="../docs/linux-windows-support.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                        Linux和Windows支持
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="docs/tutorial.html">
+            
+                
+                    <a href="../docs/tutorial.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.</b>
+                        
+                        新手引导
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" >
+            
+            <span><b>2.</b> 使用指南</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="docs/style.html">
+            
+                
+                    <a href="../docs/style.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        样式
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="docs/images.html">
+            
+                
+                    <a href="../docs/images.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        图片
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="docs/gesture-responder-system.html">
+            
+                
+                    <a href="../docs/gesture-responder-system.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        手势响应系统
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="docs/animations.html">
+            
+                
+                    <a href="../docs/animations.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                        动画
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="docs/accessibility.html">
+            
+                
+                    <a href="../docs/accessibility.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.</b>
+                        
+                        无障碍功能
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="docs/direct-manipulation.html">
+            
+                
+                    <a href="../docs/direct-manipulation.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.6.</b>
+                        
+                        直接操作
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="docs/debugging.html">
+            
+                
+                    <a href="../docs/debugging.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.7.</b>
+                        
+                        调试
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" data-path="docs/testing.html">
+            
+                
+                    <a href="../docs/testing.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.8.</b>
+                        
+                        自动化测试
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9" data-path="docs/javascript-environment.html">
+            
+                
+                    <a href="../docs/javascript-environment.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.9.</b>
+                        
+                        Javascript环境
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.10" data-path="docs/navigator-comparison.html">
+            
+                
+                    <a href="../docs/navigator-comparison.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.10.</b>
+                        
+                        导航器对比
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.11" data-path="docs/known-issues.html">
+            
+                
+                    <a href="../docs/known-issues.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.11.</b>
+                        
+                        已知问题
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.12" data-path="docs/performance.html">
+            
+                
+                    <a href="../docs/performance.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.12.</b>
+                        
+                        性能
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.13" data-path="docs/upgrading.html">
+            
+                
+                    <a href="../docs/upgrading.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.13.</b>
+                        
+                        升级
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.14" data-path="docs/platform-specific-code.html">
+            
+                
+                    <a href="../docs/platform-specific-code.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.14.</b>
+                        
+                        特定平台代码
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" >
+            
+            <span><b>3.</b> 使用指南(ISO)</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="docs/native-modules-ios.html">
+            
+                
+                    <a href="../docs/native-modules-ios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        原生模块
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="docs/native-component-ios.html">
+            
+                
+                    <a href="../docs/native-component-ios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        原生UI组件
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="docs/linking-libraries-ios.html">
+            
+                
+                    <a href="../docs/linking-libraries-ios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                        使用链接库
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="docs/running-on-device-ios.html">
+            
+                
+                    <a href="../docs/running-on-device-ios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.</b>
+                        
+                        在设备上运行
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="docs/embedded-app-ios.html">
+            
+                
+                    <a href="../docs/embedded-app-ios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.5.</b>
+                        
+                        植入原生应用
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="docs/communication-ios.html">
+            
+                
+                    <a href="../docs/communication-ios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.6.</b>
+                        
+                        在原生和ReactNative间通信
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" >
+            
+            <span><b>4.</b> 使用指南(Android)</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="docs/native-modules-android.html">
+            
+                
+                    <a href="../docs/native-modules-android.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        原生模块
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="docs/native-component-android.html">
+            
+                
+                    <a href="../docs/native-component-android.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                        原生UI组件
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="docs/running-on-device-android.html">
+            
+                
+                    <a href="../docs/running-on-device-android.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.3.</b>
+                        
+                        在设备上运行
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="docs/embedded-app-android.html">
+            
+                
+                    <a href="../docs/embedded-app-android.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.4.</b>
+                        
+                        植入原生应用
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5" data-path="docs/signed-apk-android.html">
+            
+                
+                    <a href="../docs/signed-apk-android.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.5.</b>
+                        
+                        生成已签名的APK
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6" data-path="docs/android-ui-performance.html">
+            
+                
+                    <a href="../docs/android-ui-performance.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.</b>
+                        
+                        调试AndroidUI性能
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.7" data-path="docs/android-buildingfromsource.html">
+            
+                
+                    <a href="../docs/android-buildingfromsource.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.7.</b>
+                        
+                        从源代码编译ReactNative
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5" >
+            
+            <span><b>5.</b> 组件</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1" data-path="docs/activityindicatorios.html">
+            
+                
+                    <a href="../docs/activityindicatorios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.</b>
+                        
+                        ActivityIndicatorIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="docs/datepickerios.html">
+            
+                
+                    <a href="../docs/datepickerios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.</b>
+                        
+                        DatePickerIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="docs/drawerlayoutandroid.html">
+            
+                
+                    <a href="../docs/drawerlayoutandroid.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.</b>
+                        
+                        DrawerLayoutAndroid
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="5.4" data-path="docs/image.html">
+            
+                
+                    <a href="../docs/image.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.4.</b>
+                        
+                        Image
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.5" data-path="docs/listview.html">
+            
+                
+                    <a href="../docs/listview.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.5.</b>
+                        
+                        ListView
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.6" data-path="docs/mapview.html">
+            
+                
+                    <a href="../docs/mapview.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.6.</b>
+                        
+                        MapView
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.7" data-path="docs/modal.html">
+            
+                
+                    <a href="../docs/modal.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.7.</b>
+                        
+                        Modal
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.8" data-path="docs/navigator.html">
+            
+                
+                    <a href="../docs/navigator.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.8.</b>
+                        
+                        Navigator
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.9" data-path="docs/navigatorios.html">
+            
+                
+                    <a href="../docs/navigatorios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.9.</b>
+                        
+                        NavigatorIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.10" data-path="docs/pickerios.html">
+            
+                
+                    <a href="../docs/pickerios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.10.</b>
+                        
+                        PickerIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.11" data-path="docs/progressbarandroid.html">
+            
+                
+                    <a href="../docs/progressbarandroid.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.11.</b>
+                        
+                        ProgressBarAndroid
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.12" data-path="docs/progressviewios.html">
+            
+                
+                    <a href="../docs/progressviewios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.12.</b>
+                        
+                        ProgressViewIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.13" data-path="docs/pulltorefreshviewandroid.html">
+            
+                
+                    <a href="../docs/pulltorefreshviewandroid.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.13.</b>
+                        
+                        PullToRefreshViewAndroid
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.14" data-path="docs/refreshcontrol.html">
+            
+                
+                    <a href="../docs/refreshcontrol.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.14.</b>
+                        
+                        RefreshControl
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.15" data-path="docs/scrollview.html">
+            
+                
+                    <a href="../docs/scrollview.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.15.</b>
+                        
+                        ScrollView
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.16" data-path="docs/segmentedcontrolios.html">
+            
+                
+                    <a href="../docs/segmentedcontrolios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.16.</b>
+                        
+                        SegmentedControllIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.17" data-path="docs/sliderios.html">
+            
+                
+                    <a href="../docs/sliderios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.17.</b>
+                        
+                        SliderIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.18" data-path="docs/switch.html">
+            
+                
+                    <a href="../docs/switch.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.18.</b>
+                        
+                        Switch
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.19" data-path="docs/tabbarios.html">
+            
+                
+                    <a href="../docs/tabbarios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.19.</b>
+                        
+                        TabBarIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.20" data-path="docs/tabbarios-item.html">
+            
+                
+                    <a href="../docs/tabbarios-item.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.20.</b>
+                        
+                        TabBarIOS.Item
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.21" data-path="docs/text.html">
+            
+                
+                    <a href="../docs/text.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.21.</b>
+                        
+                        Text
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.22" data-path="docs/textinput.html">
+            
+                
+                    <a href="../docs/textinput.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.22.</b>
+                        
+                        TextInput
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.23" data-path="docs/toolbarandroid.html">
+            
+                
+                    <a href="../docs/toolbarandroid.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.23.</b>
+                        
+                        ToolbarAndroid
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.24" data-path="docs/touchablehighlight.html">
+            
+                
+                    <a href="../docs/touchablehighlight.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.24.</b>
+                        
+                        TouchableHighlight
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.25" data-path="docs/touchablenativefeedback.html">
+            
+                
+                    <a href="../docs/touchablenativefeedback.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.25.</b>
+                        
+                        TouchableNativeFeedback
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.26" data-path="docs/touchableopacity.html">
+            
+                
+                    <a href="../docs/touchableopacity.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.26.</b>
+                        
+                        TouchableOpacity
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.27" data-path="docs/touchablewithoutfeedback.html">
+            
+                
+                    <a href="../docs/touchablewithoutfeedback.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.27.</b>
+                        
+                        TouchableWithoutFeedback
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.28" data-path="docs/view.html">
+            
+                
+                    <a href="../docs/view.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.28.</b>
+                        
+                        View
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.29" data-path="docs/viewpagerandroid.html">
+            
+                
+                    <a href="../docs/viewpagerandroid.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.29.</b>
+                        
+                        ViewPagerAndroid
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.30" data-path="docs/webview.html">
+            
+                
+                    <a href="../docs/webview.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.30.</b>
+                        
+                        WebView
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6" >
+            
+            <span><b>6.</b> API</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1" data-path="docs/actionsheetios.html">
+            
+                
+                    <a href="../docs/actionsheetios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.1.</b>
+                        
+                        ctionSheetIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="docs/alert.html">
+            
+                
+                    <a href="../docs/alert.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.2.</b>
+                        
+                        Alert
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.3" data-path="docs/alertios.html">
+            
+                
+                    <a href="../docs/alertios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.3.</b>
+                        
+                        AlertIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.4" data-path="docs/animated.html">
+            
+            <span><b>6.4.</b> Animated</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5" data-path="docs/appregistry.html">
+            
+                
+                    <a href="../docs/appregistry.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.5.</b>
+                        
+                        AppRegistry
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.6" data-path="docs/appstateios.html">
+            
+                
+                    <a href="../docs/appstateios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.6.</b>
+                        
+                        AppStateIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.7" data-path="docs/asyncstorage.html">
+            
+                
+                    <a href="../docs/asyncstorage.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.7.</b>
+                        
+                        AsyncStorage
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.8" data-path="docs/backandroid.html">
+            
+                
+                    <a href="../docs/backandroid.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.8.</b>
+                        
+                        BackAndroid
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.9" data-path="docs/cameraroll.html">
+            
+                
+                    <a href="../docs/cameraroll.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.9.</b>
+                        
+                        CameraRoll
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.10" data-path="docs/dimensions.html">
+            
+                
+                    <a href="../docs/dimensions.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.10.</b>
+                        
+                        Dimensions
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.11" data-path="docs/intentandroid.html">
+            
+                
+                    <a href="../docs/intentandroid.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.11.</b>
+                        
+                        IntentAndroid
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.12" data-path="docs/interactionmanager.html">
+            
+                
+                    <a href="../docs/interactionmanager.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.12.</b>
+                        
+                        InteractionManager
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.13" data-path="docs/layoutanimation.html">
+            
+                
+                    <a href="../docs/layoutanimation.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.13.</b>
+                        
+                        LayoutAnimation
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.14" data-path="docs/linkingios.html">
+            
+                
+                    <a href="../docs/linkingios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.14.</b>
+                        
+                        LinkingIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.15" data-path="docs/nativemethodsmixin.html">
+            
+                
+                    <a href="../docs/nativemethodsmixin.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.15.</b>
+                        
+                        NativeMethodsMixin
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.16" data-path="docs/netinfo.html">
+            
+                
+                    <a href="../docs/netinfo.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.16.</b>
+                        
+                        NetInfo
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.17" data-path="docs/panresponder.html">
+            
+                
+                    <a href="../docs/panresponder.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.17.</b>
+                        
+                        PanResponder
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.18" data-path="docs/pixelratio.html">
+            
+                
+                    <a href="../docs/pixelratio.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.18.</b>
+                        
+                        PixelRatio
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.19" data-path="docs/pushnotificationios.html">
+            
+                
+                    <a href="../docs/pushnotificationios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.19.</b>
+                        
+                        PushNotificationIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.20" data-path="docs/statusbarios.html">
+            
+                
+                    <a href="../docs/statusbarios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.20.</b>
+                        
+                        StatusBarIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.21" data-path="docs/stylesheet.html">
+            
+                
+                    <a href="../docs/stylesheet.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.21.</b>
+                        
+                        StyleSheet
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.22" data-path="docs/toastandroid.html">
+            
+                
+                    <a href="../docs/toastandroid.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.22.</b>
+                        
+                        ToastAndroid
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.23" data-path="docs/vibrationios.html">
+            
+                
+                    <a href="../docs/vibrationios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.23.</b>
+                        
+                        VibrationIOS
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7" >
+            
+            <span><b>7.</b> 接口兼容(POLYFILLS)</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.1" data-path="docs/flexbox.html">
+            
+                
+                    <a href="../docs/flexbox.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.1.</b>
+                        
+                        弹性盒(Flexbox)
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="docs/geolocation.html">
+            
+                
+                    <a href="../docs/geolocation.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.2.</b>
+                        
+                        定位
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.3" data-path="docs/network.html">
+            
+                
+                    <a href="../docs/network.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.3.</b>
+                        
+                        网络
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.4" data-path="docs/timers.html">
+            
+                
+                    <a href="../docs/timers.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.4.</b>
+                        
+                        定时器
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >React Native中文文档</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <p>&#x4E00;&#x4E2A;&#x7528;&#x4E8E;&#x663E;&#x793A;&#x591A;&#x79CD;&#x4E0D;&#x540C;&#x7C7B;&#x578B;&#x56FE;&#x7247;&#x7684;React&#x7EC4;&#x4EF6;&#xFF0C;&#x5305;&#x62EC;&#x7F51;&#x7EDC;&#x56FE;&#x7247;&#x3001;&#x9759;&#x6001;&#x8D44;&#x6E90;&#x3001;&#x4E34;&#x65F6;&#x7684;&#x672C;&#x5730;&#x56FE;&#x7247;&#x3001;&#x4EE5;&#x53CA;&#x672C;&#x5730;&#x78C1;&#x76D8;&#x4E0A;&#x7684;&#x56FE;&#x7247;&#xFF08;&#x5982;&#x76F8;&#x518C;&#xFF09;&#x7B49;&#x3002;&#x8BE6;&#x7EC6;&#x7528;&#x6CD5;&#x53C2;&#x9605;<a href="images.html">&#x56FE;&#x7247;&#x6587;&#x6863;</a>&#x3002;</p>
+<p>&#x7528;&#x6CD5;&#x6837;&#x4F8B;&#xFF1A;</p>
+<pre><code class="lang-javascript">renderImages: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+  <span class="hljs-keyword">return</span> (
+    <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-title">View</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">Image</span>
+        <span class="hljs-attribute">style</span>=<span class="hljs-value">{styles.icon}</span>
+        <span class="hljs-attribute">source</span>=<span class="hljs-value">{require(&apos;.</span>/<span class="hljs-attribute">icon.png</span>&apos;)}
+      /&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">Image</span>
+        <span class="hljs-attribute">style</span>=<span class="hljs-value">{styles.logo}</span>
+        <span class="hljs-attribute">source</span>=<span class="hljs-value">{{uri:</span> &apos;<span class="hljs-attribute">http:</span>//<span class="hljs-attribute">facebook.github.io</span>/<span class="hljs-attribute">react</span>/<span class="hljs-attribute">img</span>/<span class="hljs-attribute">logo_og.png</span>&apos;}}
+      /&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">View</span>&gt;</span>
+  )</span>;
+},
+</code></pre>
+<h3 id="&#x622A;&#x56FE;">&#x622A;&#x56FE;</h3>
+<p><img src="../img/components/image.png" alt=""></p>
+<h3 id="&#x5C5E;&#x6027;">&#x5C5E;&#x6027;</h3>
+<div class="props">
+    <div class="prop">
+        <h4 class="propTitle" id="onlayout-function-"><a class="anchor" name="onlayout"></a>onLayout <span class="propType">function</span> <a class="hash-link" href="#onlayout">#</a></h4>
+        <div>
+            <p>&#x5F53;&#x5143;&#x7D20;&#x6302;&#x8F7D;&#x6216;&#x8005;&#x5E03;&#x5C40;&#x6539;&#x53D8;&#x7684;&#x65F6;&#x5019;&#x8C03;&#x7528;&#xFF0C;&#x53C2;&#x6570;&#x4E3A;&#xFF1A;<code>{nativeEvent: {layout: {x, y, width, height}}}</code>.</p>
+        </div>
+    </div>
+        <div class="prop">
+        <h4 class="propTitle" id="onload-function-"><a class="anchor" name="onload"></a>onLoad <span class="propType">function</span> <a class="hash-link" href="#onload">#</a></h4>
+        <div>
+            <p>&#x52A0;&#x8F7D;&#x6210;&#x529F;&#x5B8C;&#x6210;&#x65F6;&#x8C03;&#x7528;&#x6B64;&#x56DE;&#x8C03;&#x51FD;&#x6570;&#x3002;</p>
+        </div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="onloadend-function-"><a class="anchor" name="onloadend"></a>onLoadEnd <span class="propType">function</span> <a class="hash-link" href="#onloadend">#</a></h4>
+        <div>
+            <p>&#x52A0;&#x8F7D;&#x7ED3;&#x675F;&#x540E;&#xFF0C;&#x4E0D;&#x8BBA;&#x6210;&#x529F;&#x8FD8;&#x662F;&#x5931;&#x8D25;&#xFF0C;&#x8C03;&#x7528;&#x6B64;&#x56DE;&#x8C03;&#x51FD;&#x6570;&#x3002;</p>
+        </div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="onloadstart-function-"><a class="anchor" name="onloadstart"></a>onLoadStart <span class="propType">function</span> <a class="hash-link" href="#onloadstart">#</a></h4>
+        <div>
+            <p>&#x52A0;&#x8F7D;&#x5F00;&#x59CB;&#x65F6;&#x8C03;&#x7528;&#x3002;</p>
+        </div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="resizemode-enumcover-contain-stretch-"><a class="anchor" name="resizemode"></a>resizeMode <span class="propType">enum(&apos;cover&apos;, &apos;contain&apos;, &apos;stretch&apos;)</span> <a class="hash-link" href="#resizemode">#</a></h4>
+        <div>
+            <p>&#x51B3;&#x5B9A;&#x5F53;&#x7EC4;&#x4EF6;&#x5C3A;&#x5BF8;&#x548C;&#x56FE;&#x7247;&#x5C3A;&#x5BF8;&#x4E0D;&#x6210;&#x6BD4;&#x4F8B;&#x7684;&#x65F6;&#x5019;&#x5982;&#x4F55;&#x8C03;&#x6574;&#x56FE;&#x7247;&#x7684;&#x5927;&#x5C0F;&#x3002;</p>
+            <ul>
+            <li><p><code>cover</code>: &#x5728;&#x4FDD;&#x6301;&#x56FE;&#x7247;&#x5BBD;&#x9AD8;&#x6BD4;&#x7684;&#x524D;&#x63D0;&#x4E0B;&#x7F29;&#x653E;&#x56FE;&#x7247;&#xFF0C;&#x76F4;&#x5230;&#x5BBD;&#x5EA6;&#x548C;&#x9AD8;&#x5EA6;&#x90FD;&#x5927;&#x4E8E;&#x7B49;&#x4E8E;&#x5BB9;&#x5668;&#x89C6;&#x56FE;&#x7684;&#x5C3A;&#x5BF8;&#xFF08;&#x5982;&#x679C;&#x5BB9;&#x5668;&#x6709;padding&#x5185;&#x886C;&#x7684;&#x8BDD;&#xFF0C;&#x5219;&#x76F8;&#x5E94;&#x51CF;&#x53BB;&#xFF09;&#x3002;__&#x8BD1;&#x6CE8;__&#xFF1A;&#x8FD9;&#x6837;&#x56FE;&#x7247;&#x5B8C;&#x5168;&#x8986;&#x76D6;&#x751A;&#x81F3;&#x8D85;&#x51FA;&#x5BB9;&#x5668;&#xFF0C;&#x5BB9;&#x5668;&#x4E2D;&#x4E0D;&#x7559;&#x4EFB;&#x4F55;&#x7A7A;&#x767D;&#x3002;</p></li>
+              <li><p><code>contain</code>: &#x5728;&#x4FDD;&#x6301;&#x56FE;&#x7247;&#x5BBD;&#x9AD8;&#x6BD4;&#x7684;&#x524D;&#x63D0;&#x4E0B;&#x7F29;&#x653E;&#x56FE;&#x7247;&#xFF0C;&#x76F4;&#x5230;&#x5BBD;&#x5EA6;&#x548C;&#x9AD8;&#x5EA6;&#x90FD;&#x5C0F;&#x4E8E;&#x7B49;&#x4E8E;&#x5BB9;&#x5668;&#x89C6;&#x56FE;&#x7684;&#x5C3A;&#x5BF8;&#xFF08;&#x5982;&#x679C;&#x5BB9;&#x5668;&#x6709;padding&#x5185;&#x886C;&#x7684;&#x8BDD;&#xFF0C;&#x5219;&#x76F8;&#x5E94;&#x51CF;&#x53BB;&#xFF09;&#x3002;__&#x8BD1;&#x6CE8;__&#xFF1A;&#x8FD9;&#x6837;&#x56FE;&#x7247;&#x5B8C;&#x5168;&#x88AB;&#x5305;&#x88F9;&#x5728;&#x5BB9;&#x5668;&#x4E2D;&#xFF0C;&#x5BB9;&#x5668;&#x4E2D;&#x53EF;&#x80FD;&#x7559;&#x6709;&#x7A7A;&#x767D;</p></li>
+              <li><p><code>stretch</code>: &#x62C9;&#x4F38;&#x56FE;&#x7247;&#x4E14;&#x4E0D;&#x7EF4;&#x6301;&#x5BBD;&#x9AD8;&#x6BD4;&#xFF0C;&#x76F4;&#x5230;&#x5BBD;&#x9AD8;&#x90FD;&#x521A;&#x597D;&#x586B;&#x6EE1;&#x5BB9;&#x5668;&#x3002;</p></li>
+              </ul>
+        </div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="source-uri-string-number-"><a class="anchor" name="source"></a>source <span class="propType">{uri: string}, number</span> <a class="hash-link" href="#source">#</a></h4>
+        <div>
+            <p><code>uri</code>&#x662F;&#x4E00;&#x4E2A;&#x8868;&#x793A;&#x56FE;&#x7247;&#x7684;&#x8D44;&#x6E90;&#x6807;&#x8BC6;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x5B83;&#x53EF;&#x4EE5;&#x662F;&#x4E00;&#x4E2A;http&#x5730;&#x5740;&#x6216;&#x662F;&#x4E00;&#x4E2A;&#x672C;&#x5730;&#x6587;&#x4EF6;&#x8DEF;&#x5F84;&#xFF08;&#x4F7F;&#x7528;<code>require(&#x76F8;&#x5BF9;&#x8DEF;&#x5F84;)</code>&#x6765;&#x5F15;&#x7528;&#xFF09;&#x3002;</p>
+        </div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="style-style-"><a class="anchor" name="style"></a>style <span class="propType">style</span> <a class="hash-link" href="#style">#</a></h4>
+        <div class="compactProps">
+            <div class="prop">
+                <h6 class="propTitle" id="flexbox"><a href="flexbox.html#proptypes">Flexbox...</a></h6>
+            </div>
+            <div class="prop">
+                <h6 class="propTitle" id="transforms"><a href="transforms.html#proptypes">Transforms...</a></h6>
+            </div>
+            <div class="prop">
+                <h6 class="propTitle" id="resizemode-objectkeysimageresizemode">resizeMode <span class="propType">Object.keys(ImageResizeMode)</span></h6>
+            </div>
+            <div class="prop">
+                <h6 class="propTitle" id="backgroundcolor-string">backgroundColor <span class="propType">string</span></h6>
+            </div>
+            <div class="prop">
+                <h6 class="propTitle" id="bordercolor-string">borderColor <span class="propType">string</span></h6>
+            </div>
+            <div class="prop">
+                <h6 class="propTitle" id="borderwidth-number">borderWidth <span class="propType">number</span></h6>
+            </div>
+            <div class="prop">
+                <h6 class="propTitle" id="borderradius-number">borderRadius <span class="propType">number</span></h6>
+            </div>
+            <div class="prop">
+                <h6 class="propTitle" id="overflow-enumvisible-hidden">overflow <span class="propType">enum(&apos;visible&apos;, &apos;hidden&apos;)</span></h6>
+            </div>
+            <div class="prop">
+                <h6 class="propTitle" id="tintcolor-string">tintColor <span class="propType">string</span></h6>
+            </div>
+            <div class="prop">
+                <h6 class="propTitle" id="opacity-number">opacity <span class="propType">number</span></h6>
+            </div>
+        </div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="testid-string-"><a class="anchor" name="testid"></a>testID <span class="propType">string</span> <a class="hash-link" href="#testid">#</a></h4>
+        <div>
+            <p>&#x4E00;&#x4E2A;&#x552F;&#x4E00;&#x7684;&#x8D44;&#x6E90;&#x6807;&#x8BC6;&#x7B26;&#xFF0C;&#x7528;&#x6765;&#x5728;&#x81EA;&#x52A8;&#x6D4B;&#x8BD5;&#x811A;&#x672C;&#x4E2D;&#x6807;&#x8BC6;&#x8FD9;&#x4E2A;&#x5143;&#x7D20;&#x3002;</p>
+        </div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="iosaccessibilitylabel-string-"><a class="anchor" name="accessibilitylabel"></a><span class="platform">ios</span>accessibilityLabel <span class="propType">string</span> <a class="hash-link" href="#accessibilitylabel">#</a></h4>
+        <div>
+            <p>&#x5F53;&#x7528;&#x6237;&#x4E0E;&#x56FE;&#x7247;&#x4EA4;&#x4E92;&#x65F6;&#xFF0C;&#x8BFB;&#x5C4F;&#x5668;&#xFF08;&#x65E0;&#x969C;&#x788D;&#x529F;&#x80FD;&#xFF09;&#x4F1A;&#x6717;&#x8BFB;&#x7684;&#x6587;&#x5B57;&#x3002;</p>
+        </div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="iosaccessible-bool-"><a class="anchor" name="accessible"></a><span class="platform">ios</span>accessible <span class="propType">bool</span> <a class="hash-link" href="#accessible">#</a></h4>
+        <div>
+            <p>&#x5F53;&#x6B64;&#x5C5E;&#x6027;&#x4E3A;&#x771F;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x8868;&#x793A;&#x8FD9;&#x4E2A;&#x56FE;&#x7247;&#x662F;&#x4E00;&#x4E2A;&#x542F;&#x7528;&#x4E86;&#x65E0;&#x969C;&#x788D;&#x529F;&#x80FD;&#x7684;&#x5143;&#x7D20;&#x3002;</p>
+        </div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="ioscapinsets-top-number-left-number-bottom-number-right-number-"><a class="anchor" name="capinsets"></a><span class="platform">ios</span>capInsets <span class="propType">{top: number, left: number, bottom: number, right: number}</span> <a class="hash-link" href="#capinsets">#</a></h4>
+        <div>
+            <p>&#x5F53;&#x56FE;&#x7247;&#x88AB;&#x7F29;&#x653E;&#x7684;&#x65F6;&#x5019;&#xFF0C;capInsets&#x6307;&#x5B9A;&#x7684;&#x89D2;&#x4E0A;&#x7684;&#x5C3A;&#x5BF8;&#x4F1A;&#x88AB;&#x56FA;&#x5B9A;&#x800C;&#x4E0D;&#x8FDB;&#x884C;&#x7F29;&#x653E;&#xFF0C;&#x800C;&#x4E2D;&#x95F4;&#x548C;&#x8FB9;&#x4E0A;&#x5176;&#x4ED6;&#x7684;&#x90E8;&#x5206;&#x5219;&#x4F1A;&#x88AB;&#x62C9;&#x4F38;&#x3002;&#x8FD9;&#x5728;&#x5236;&#x4F5C;&#x4E00;&#x4E9B;&#x53EF;&#x53D8;&#x5927;&#x5C0F;&#x7684;&#x5706;&#x89D2;&#x6309;&#x94AE;&#x3001;&#x9634;&#x5F71;&#x3001;&#x4EE5;&#x53CA;&#x5176;&#x5B83;&#x8D44;&#x6E90;&#x7684;&#x65F6;&#x5019;&#x975E;&#x5E38;&#x6709;&#x7528;&#xFF08;&#x8BD1;&#x6CE8;&#xFF1A;&#x8FD9;&#x5C31;&#x662F;&#x5E38;&#x8BF4;&#x7684;&#x4E5D;&#x5BAB;&#x683C;&#x6216;&#x8005;.9&#x56FE;&#x3002;&#x4E86;&#x89E3;&#x66F4;&#x591A;&#x4FE1;&#x606F;&#xFF0C;&#x53EF;&#x4EE5;&#x53C2;&#x89C1;<a href="https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIImage_Class/index.html#//apple_ref/occ/instm/UIImage/resizableImageWithCapInsets" target="_blank">&#x82F9;&#x679C;&#x5B98;&#x65B9;&#x6587;&#x6863;</a></p>
+        </div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="iosdefaultsource-uri-string-"><a class="anchor" name="defaultsource"></a><span class="platform">ios</span>defaultSource <span class="propType">{uri: string}</span> <a class="hash-link" href="#defaultsource">#</a></h4>
+        <div>
+            <p>&#x4E00;&#x4E2A;&#x9759;&#x6001;&#x56FE;&#x7247;&#xFF0C;&#x5F53;&#x6700;&#x7EC8;&#x7684;&#x56FE;&#x7247;&#x6B63;&#x5728;&#x4E0B;&#x8F7D;&#x7684;&#x8FC7;&#x7A0B;&#x4E2D;&#x65F6;&#x663E;&#x793A;&#xFF08;loading&#x80CC;&#x666F;&#x56FE;&#xFF09;&#x3002;</p>
+        </div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="iosonerror-function-"><a class="anchor" name="onerror"></a><span class="platform">ios</span>onError <span class="propType">function</span> <a class="hash-link" href="#onerror">#</a></h4>
+        <div>
+            <p>&#x5F53;&#x52A0;&#x8F7D;&#x9519;&#x8BEF;&#x7684;&#x65F6;&#x5019;&#x8C03;&#x7528;&#x6B64;&#x56DE;&#x8C03;&#x51FD;&#x6570;&#xFF0C;&#x53C2;&#x6570;&#x4E3A;<code>{nativeEvent: {error}}</code></p>
+        </div>
+    </div>
+    <div class="prop">
+        <h4 class="propTitle" id="iosonprogress-function-"><a class="anchor" name="onprogress"></a><span class="platform">ios</span>onProgress <span class="propType">function</span> <a class="hash-link" href="#onprogress">#</a></h4>
+        <div>
+            <p>&#x5728;&#x52A0;&#x8F7D;&#x8FC7;&#x7A0B;&#x4E2D;&#x4E0D;&#x65AD;&#x8C03;&#x7528;&#xFF0C;&#x53C2;&#x6570;&#x4E3A;<code>{nativeEvent: {loaded, total}}</code></p>
+        </div>
+    </div>
+</div>
+
+<h3 id="&#x6837;&#x4F8B;">&#x6837;&#x4F8B;</h3>
+<pre><code class="lang-javascript"><span class="hljs-pi">&apos;use strict&apos;</span>;
+
+<span class="hljs-keyword">var</span> React = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;react-native&apos;</span>);
+<span class="hljs-keyword">var</span> {
+  Image,
+  StyleSheet,
+  Text,
+  View,
+  ActivityIndicatorIOS
+} = React;
+
+<span class="hljs-keyword">var</span> base64Icon = <span class="hljs-string">&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAABLCAQAAACSR7JhAAADtUlEQVR4Ac3YA2Bj6QLH0XPT1Fzbtm29tW3btm3bfLZtv7e2ObZnms7d8Uw098tuetPzrxv8wiISrtVudrG2JXQZ4VOv+qUfmqCGGl1mqLhoA52oZlb0mrjsnhKpgeUNEs91Z0pd1kvihA3ULGVHiQO2narKSHKkEMulm9VgUyE60s1aWoMQUbpZOWE+kaqs4eLEjdIlZTcFZB0ndc1+lhB1lZrIuk5P2aib1NBpZaL+JaOGIt0ls47SKzLC7CqrlGF6RZ09HGoNy1lYl2aRSWL5GuzqWU1KafRdoRp0iOQEiDzgZPnG6DbldcomadViflnl/cL93tOoVbsOLVM2jylvdWjXolWX1hmfZbGR/wjypDjFLSZIRov09BgYmtUqPQPlQrPapecLgTIy0jMgPKtTeob2zWtrGH3xvjUkPCtNg/tm1rjwrMa+mdUkPd3hWbH0jArPGiU9ufCsNNWFZ40wpwn+62/66R2RUtoso1OB34tnLOcy7YB1fUdc9e0q3yru8PGM773vXsuZ5YIZX+5xmHwHGVvlrGPN6ZSiP1smOsMMde40wKv2VmwPPVXNut4sVpUreZiLBHi0qln/VQeI/LTMYXpsJtFiclUN+5HVZazim+Ky+7sAvxWnvjXrJFneVtLWLyPJu9K3cXLWeOlbMTlrIelbMDlrLenrjEQOtIF+fuI9xRp9ZBFp6+b6WT8RrxEpdK64BuvHgDk+vUy+b5hYk6zfyfs051gRoNO1usU12WWRWL73/MMEy9pMi9qIrR4ZpV16Rrvduxazmy1FSvuFXRkqTnE7m2kdb5U8xGjLw/spRr1uTov4uOgQE+0N/DvFrG/Jt7i/FzwxbA9kDanhf2w+t4V97G8lrT7wc08aA2QNUkuTfW/KimT01wdlfK4yEw030VfT0RtZbzjeMprNq8m8tnSTASrTLti64oBNdpmMQm0eEwvfPwRbUBywG5TzjPCsdwk3IeAXjQblLCoXnDVeoAz6SfJNk5TTzytCNZk/POtTSV40NwOFWzw86wNJRpubpXsn60NJFlHeqlYRbslqZm2jnEZ3qcSKgm0kTli3zZVS7y/iivZTweYXJ26Y+RTbV1zh3hYkgyFGSTKPfRVbRqWWVReaxYeSLarYv1Qqsmh1s95S7G+eEWK0f3jYKTbV6bOwepjfhtafsvUsqrQvrGC8YhmnO9cSCk3yuY984F1vesdHYhWJ5FvASlacshUsajFt2mUM9pqzvKGcyNJW0arTKN1GGGzQlH0tXwLDgQTurS8eIQAAAABJRU5ErkJggg==&apos;</span>;
+
+<span class="hljs-keyword">var</span> ImageCapInsetsExample = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;./ImageCapInsetsExample&apos;</span>);
+
+<span class="hljs-keyword">var</span> NetworkImageExample = React.createClass({
+  watchID: (<span class="hljs-literal">null</span>: ?number),
+
+  getInitialState: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">return</span> {
+      error: <span class="hljs-literal">false</span>,
+      loading: <span class="hljs-literal">false</span>,
+      progress: <span class="hljs-number">0</span>
+    };
+  },
+  render: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">var</span> loader = <span class="hljs-keyword">this</span>.state.loading ?
+      <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-title">View</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">{styles.progress}</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">Text</span>&gt;</span>{this.state.progress}%<span class="hljs-tag">&lt;/<span class="hljs-title">Text</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">ActivityIndicatorIOS</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">{{marginLeft:5}}</span>/&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-title">View</span>&gt;</span> : null;
+    return this.state.error ?
+      <span class="hljs-tag">&lt;<span class="hljs-title">Text</span>&gt;</span>{this.state.error}<span class="hljs-tag">&lt;/<span class="hljs-title">Text</span>&gt;</span> :
+      <span class="hljs-tag">&lt;<span class="hljs-title">Image</span>
+        <span class="hljs-attribute">source</span>=<span class="hljs-value">{this.props.source}</span>
+        <span class="hljs-attribute">style</span>=<span class="hljs-value">{[styles.base,</span> {<span class="hljs-attribute">overflow:</span> &apos;<span class="hljs-attribute">visible</span>&apos;}]}
+        <span class="hljs-attribute">onLoadStart</span>=<span class="hljs-value">{(e)</span> =&gt;</span> this.setState({loading: true})}
+        onError={(e) =&gt; this.setState({error: e.nativeEvent.error, loading: false})}
+        onProgress={(e) =&gt; this.setState({progress: Math.round(100 * e.nativeEvent.loaded / e.nativeEvent.total)})}
+        onLoad={() =&gt; this.setState({loading: false, error: false})}&gt;
+        {loader}
+      <span class="hljs-tag">&lt;/<span class="hljs-title">Image</span>&gt;</span>;</span>
+  }
+});
+
+exports.displayName = (<span class="hljs-literal">undefined</span>: ?string);
+exports.framework = <span class="hljs-string">&apos;React&apos;</span>;
+exports.title = <span class="hljs-string">&apos;&lt;Image&gt;&apos;</span>;
+exports.description = <span class="hljs-string">&apos;Base component for displaying different types of images.&apos;</span>;
+
+exports.examples = [
+  {
+    title: <span class="hljs-string">&apos;Plain Network Image&apos;</span>,
+    description: <span class="hljs-string">&apos;If the `source` prop `uri` property is prefixed with &apos;</span> +
+    <span class="hljs-string">&apos;&quot;http&quot;, then it will be downloaded from the network.&apos;</span>,
+    render: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+      <span class="hljs-keyword">return</span> (
+        <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-title">Image</span>
+          <span class="hljs-attribute">source</span>=<span class="hljs-value">{{uri:</span> &apos;<span class="hljs-attribute">http:</span>//<span class="hljs-attribute">facebook.github.io</span>/<span class="hljs-attribute">react</span>/<span class="hljs-attribute">img</span>/<span class="hljs-attribute">logo_og.png</span>&apos;}}
+          <span class="hljs-attribute">style</span>=<span class="hljs-value">{styles.base}</span>
+        /&gt;</span>
+      )</span>;
+    },
+  },
+  {
+    title: <span class="hljs-string">&apos;Plain Static Image&apos;</span>,
+    description: <span class="hljs-string">&apos;Static assets should be required by prefixing with `image!` &apos;</span> +
+      <span class="hljs-string">&apos;and are located in the app bundle.&apos;</span>,
+    render: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+      <span class="hljs-keyword">return</span> (
+        <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-title">View</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">{styles.horizontal}</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">Image</span> <span class="hljs-attribute">source</span>=<span class="hljs-value">{require(&apos;image!uie_thumb_normal&apos;)}</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">{styles.icon}</span> /&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">Image</span> <span class="hljs-attribute">source</span>=<span class="hljs-value">{require(&apos;image!uie_thumb_selected&apos;)}</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">{styles.icon}</span> /&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">Image</span> <span class="hljs-attribute">source</span>=<span class="hljs-value">{require(&apos;image!uie_comment_normal&apos;)}</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">{styles.icon}</span> /&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">Image</span> <span class="hljs-attribute">source</span>=<span class="hljs-value">{require(&apos;image!uie_comment_highlighted&apos;)}</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">{styles.icon}</span> /&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-title">View</span>&gt;</span>
+      )</span>;
+    },
+  },
+  {
+    title: <span class="hljs-string">&apos;Error Handler&apos;</span>,
+    render: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+      <span class="hljs-keyword">return</span> (
+        <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-title">NetworkImageExample</span> <span class="hljs-attribute">source</span>=<span class="hljs-value">{{uri:</span> &apos;<span class="hljs-attribute">http:</span>//<span class="hljs-attribute">TYPO_ERROR_facebook.github.io</span>/<span class="hljs-attribute">react</span>/<span class="hljs-attribute">img</span>/<span class="hljs-attribute">logo_og.png</span>&apos;}} /&gt;</span>
+      )</span>;
+    },
+    platform: <span class="hljs-string">&apos;ios&apos;</span>,
+  },
+  {
+    title: <span class="hljs-string">&apos;Image Download Progress&apos;</span>,
+    render: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+      <span class="hljs-keyword">return</span> (
+        <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-title">NetworkImageExample</span> <span class="hljs-attribute">source</span>=<span class="hljs-value">{{uri:</span> &apos;<span class="hljs-attribute">http:</span>//<span class="hljs-attribute">facebook.github.io</span>/<span class="hljs-attribute">origami</span>/<span class="hljs-attribute">public</span>/<span class="hljs-attribute">images</span>/<span class="hljs-attribute">blog-hero.jpg</span>?<span class="hljs-attribute">r</span>=<span class="hljs-value">1&apos;}}</span>/&gt;</span>
+      )</span>;
+    },
+    platform: <span class="hljs-string">&apos;ios&apos;</span>,
+  },
+  {
+    title: <span class="hljs-string">&apos;Border Color&apos;</span>,
+    render: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+      <span class="hljs-keyword">return</span> (
+        <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-title">View</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">{styles.horizontal}</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">Image</span>
+            <span class="hljs-attribute">source</span>=<span class="hljs-value">{smallImage}</span>
+            <span class="hljs-attribute">style</span>=<span class="hljs-value">{[</span>
+              <span class="hljs-attribute">styles.base</span>,
+              <span class="hljs-attribute">styles.background</span>,
+              {<span class="hljs-attribute">borderWidth:</span> <span class="hljs-attribute">3</span>, <span class="hljs-attribute">borderColor:</span> &apos;#<span class="hljs-attribute">f099f0</span>&apos;}
+            ]}
+          /&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-title">View</span>&gt;</span>
+      )</span>;
+    },
+  },
+  {
+    title: <span class="hljs-string">&apos;Border Width&apos;</span>,
+    render: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+      <span class="hljs-keyword">return</span> (
+        <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-title">View</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">{styles.horizontal}</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">Image</span>
+            <span class="hljs-attribute">source</span>=<span class="hljs-value">{smallImage}</span>
+            <span class="hljs-attribute">style</span>=<span class="hljs-value">{[</span>
+              <span class="hljs-attribute">styles.base</span>,
+              <span class="hljs-attribute">styles.background</span>,
+              {<span class="hljs-attribute">borderWidth:</span> <span class="hljs-attribute">5</span>, <span class="hljs-attribute">borderColor:</span> &apos;#<span class="hljs-attribute">f099f0</span>&apos;}
+            ]}
+          /&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-title">View</span>&gt;</span>
+      )</span>;
+    },
+  },
+  {
+    title: <span class="hljs-string">&apos;Border Radius&apos;</span>,
+    render: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+      <span class="hljs-keyword">return</span> (
+        <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-title">View</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">{styles.horizontal}</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">Image</span>
+            <span class="hljs-attribute">style</span>=<span class="hljs-value">{[styles.base,</span> {<span class="hljs-attribute">borderRadius:</span> <span class="hljs-attribute">5</span>}]}
+            <span class="hljs-attribute">source</span>=<span class="hljs-value">{fullImage}</span>
+          /&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">Image</span>
+            <span class="hljs-attribute">style</span>=<span class="hljs-value">{[styles.base,</span> <span class="hljs-attribute">styles.leftMargin</span>, {<span class="hljs-attribute">borderRadius:</span> <span class="hljs-attribute">19</span>}]}
+            <span class="hljs-attribute">source</span>=<span class="hljs-value">{fullImage}</span>
+          /&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-title">View</span>&gt;</span>
+      )</span>;
+    },
+  },
+  {
+    title: <span class="hljs-string">&apos;Background Color&apos;</span>,
+    render: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+      <span class="hljs-keyword">return</span> (
+        <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-title">View</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">{styles.horizontal}</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">Image</span> <span class="hljs-attribute">source</span>=<span class="hljs-value">{smallImage}</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">{styles.base}</span> /&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">Image</span>
+            <span class="hljs-attribute">style</span>=<span class="hljs-value">{[</span>
+              <span class="hljs-attribute">styles.base</span>,
+              <span class="hljs-attribute">styles.leftMargin</span>,
+              {<span class="hljs-attribute">backgroundColor:</span> &apos;<span class="hljs-attribute">rgba</span>(<span class="hljs-attribute">0</span>, <span class="hljs-attribute">0</span>, <span class="hljs-attribute">100</span>, <span class="hljs-attribute">0.25</span>)&apos;}
+            ]}
+            <span class="hljs-attribute">source</span>=<span class="hljs-value">{smallImage}</span>
+          /&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">Image</span>
+            <span class="hljs-attribute">style</span>=<span class="hljs-value">{[styles.base,</span> <span class="hljs-attribute">styles.leftMargin</span>, {<span class="hljs-attribute">backgroundColor:</span> &apos;<span class="hljs-attribute">red</span>&apos;}]}
+            <span class="hljs-attribute">source</span>=<span class="hljs-value">{smallImage}</span>
+          /&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">Image</span>
+            <span class="hljs-attribute">style</span>=<span class="hljs-value">{[styles.base,</span> <span class="hljs-attribute">styles.leftMargin</span>, {<span class="hljs-attribute">backgroundColor:</span> &apos;<span class="hljs-attribute">black</span>&apos;}]}
+            <span class="hljs-attribute">source</span>=<span class="hljs-value">{smallImage}</span>
+          /&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-title">View</span>&gt;</span>
+      )</span>;
+    },
+  },
+  {
+    title: <span class="hljs-string">&apos;Opacity&apos;</span>,
+    render: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+      <span class="hljs-keyword">return</span> (
+        <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-title">View</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">{styles.horizontal}</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">Image</span>
+            <span class="hljs-attribute">style</span>=<span class="hljs-value">{[styles.base,</span> {<span class="hljs-attribute">opacity:</span> <span class="hljs-attribute">1</span>}]}
+            <span class="hljs-attribute">source</span>=<span class="hljs-value">{fullImage}</span>
+          /&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">Image</span>
+            <span class="hljs-attribute">style</span>=<span class="hljs-value">{[styles.base,</span> <span class="hljs-attribute">styles.leftMargin</span>, {<span class="hljs-attribute">opacity:</span> <span class="hljs-attribute">0.8</span>}]}
+            <span class="hljs-attribute">source</span>=<span class="hljs-value">{fullImage}</span>
+          /&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">Image</span>
+            <span class="hljs-attribute">style</span>=<span class="hljs-value">{[styles.base,</span> <span class="hljs-attribute">styles.leftMargin</span>, {<span class="hljs-attribute">opacity:</span> <span class="hljs-attribute">0.6</span>}]}
+            <span class="hljs-attribute">source</span>=<span class="hljs-value">{fullImage}</span>
+          /&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">Image</span>
+            <span class="hljs-attribute">style</span>=<span class="hljs-value">{[styles.base,</span> <span class="hljs-attribute">styles.leftMargin</span>, {<span class="hljs-attribute">opacity:</span> <span class="hljs-attribute">0.4</span>}]}
+            <span class="hljs-attribute">source</span>=<span class="hljs-value">{fullImage}</span>
+          /&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">Image</span>
+            <span class="hljs-attribute">style</span>=<span class="hljs-value">{[styles.base,</span> <span class="hljs-attribute">styles.leftMargin</span>, {<span class="hljs-attribute">opacity:</span> <span class="hljs-attribute">0.2</span>}]}
+            <span class="hljs-attribute">source</span>=<span class="hljs-value">{fullImage}</span>
+          /&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">Image</span>
+            <span class="hljs-attribute">style</span>=<span class="hljs-value">{[styles.base,</span> <span class="hljs-attribute">styles.leftMargin</span>, {<span class="hljs-attribute">opacity:</span> <span class="hljs-attribute">0</span>}]}
+            <span class="hljs-attribute">source</span>=<span class="hljs-value">{fullImage}</span>
+          /&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-title">View</span>&gt;</span>
+      )</span>;
+    },
+  },
+  {
+    title: <span class="hljs-string">&apos;Nesting&apos;</span>,
+    render: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+      <span class="hljs-keyword">return</span> (
+        <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-title">Image</span>
+          <span class="hljs-attribute">style</span>=<span class="hljs-value">{{width:</span> <span class="hljs-attribute">60</span>, <span class="hljs-attribute">height:</span> <span class="hljs-attribute">60</span>, <span class="hljs-attribute">backgroundColor:</span> &apos;<span class="hljs-attribute">transparent</span>&apos;}}
+          <span class="hljs-attribute">source</span>=<span class="hljs-value">{fullImage}</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">Text</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">{styles.nestedText}</span>&gt;</span>
+            React
+          <span class="hljs-tag">&lt;/<span class="hljs-title">Text</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-title">Image</span>&gt;</span>
+      )</span>;
+    },
+  },
+  {
+    title: <span class="hljs-string">&apos;Tint Color&apos;</span>,
+    description: <span class="hljs-string">&apos;The `tintColor` style prop changes all the non-alpha &apos;</span> +
+      <span class="hljs-string">&apos;pixels to the tint color.&apos;</span>,
+    render: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+      <span class="hljs-keyword">return</span> (
+        <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-title">View</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">View</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">{styles.horizontal}</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-title">Image</span>
+              <span class="hljs-attribute">source</span>=<span class="hljs-value">{require(&apos;image!uie_thumb_normal&apos;)}</span>
+              <span class="hljs-attribute">style</span>=<span class="hljs-value">{[styles.icon,</span> {<span class="hljs-attribute">borderRadius:</span> <span class="hljs-attribute">5</span>, <span class="hljs-attribute">tintColor:</span> &apos;#<span class="hljs-attribute">5ac8fa</span>&apos; }]}
+            /&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-title">Image</span>
+              <span class="hljs-attribute">source</span>=<span class="hljs-value">{require(&apos;image!uie_thumb_normal&apos;)}</span>
+              <span class="hljs-attribute">style</span>=<span class="hljs-value">{[styles.icon,</span> <span class="hljs-attribute">styles.leftMargin</span>, {<span class="hljs-attribute">borderRadius:</span> <span class="hljs-attribute">5</span>, <span class="hljs-attribute">tintColor:</span> &apos;#<span class="hljs-attribute">4cd964</span>&apos; }]}
+            /&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-title">Image</span>
+              <span class="hljs-attribute">source</span>=<span class="hljs-value">{require(&apos;image!uie_thumb_normal&apos;)}</span>
+              <span class="hljs-attribute">style</span>=<span class="hljs-value">{[styles.icon,</span> <span class="hljs-attribute">styles.leftMargin</span>, {<span class="hljs-attribute">borderRadius:</span> <span class="hljs-attribute">5</span>, <span class="hljs-attribute">tintColor:</span> &apos;#<span class="hljs-attribute">ff2d55</span>&apos; }]}
+            /&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-title">Image</span>
+              <span class="hljs-attribute">source</span>=<span class="hljs-value">{require(&apos;image!uie_thumb_normal&apos;)}</span>
+              <span class="hljs-attribute">style</span>=<span class="hljs-value">{[styles.icon,</span> <span class="hljs-attribute">styles.leftMargin</span>, {<span class="hljs-attribute">borderRadius:</span> <span class="hljs-attribute">5</span>, <span class="hljs-attribute">tintColor:</span> &apos;#<span class="hljs-attribute">8e8e93</span>&apos; }]}
+            /&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-title">View</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">Text</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">{styles.sectionText}</span>&gt;</span>
+            It also works with downloaded images:
+          <span class="hljs-tag">&lt;/<span class="hljs-title">Text</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">View</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">{styles.horizontal}</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-title">Image</span>
+              <span class="hljs-attribute">source</span>=<span class="hljs-value">{smallImage}</span>
+              <span class="hljs-attribute">style</span>=<span class="hljs-value">{[styles.base,</span> {<span class="hljs-attribute">borderRadius:</span> <span class="hljs-attribute">5</span>, <span class="hljs-attribute">tintColor:</span> &apos;#<span class="hljs-attribute">5ac8fa</span>&apos; }]}
+            /&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-title">Image</span>
+              <span class="hljs-attribute">source</span>=<span class="hljs-value">{smallImage}</span>
+              <span class="hljs-attribute">style</span>=<span class="hljs-value">{[styles.base,</span> <span class="hljs-attribute">styles.leftMargin</span>, {<span class="hljs-attribute">borderRadius:</span> <span class="hljs-attribute">5</span>, <span class="hljs-attribute">tintColor:</span> &apos;#<span class="hljs-attribute">4cd964</span>&apos; }]}
+            /&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-title">Image</span>
+              <span class="hljs-attribute">source</span>=<span class="hljs-value">{smallImage}</span>
+              <span class="hljs-attribute">style</span>=<span class="hljs-value">{[styles.base,</span> <span class="hljs-attribute">styles.leftMargin</span>, {<span class="hljs-attribute">borderRadius:</span> <span class="hljs-attribute">5</span>, <span class="hljs-attribute">tintColor:</span> &apos;#<span class="hljs-attribute">ff2d55</span>&apos; }]}
+            /&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-title">Image</span>
+              <span class="hljs-attribute">source</span>=<span class="hljs-value">{smallImage}</span>
+              <span class="hljs-attribute">style</span>=<span class="hljs-value">{[styles.base,</span> <span class="hljs-attribute">styles.leftMargin</span>, {<span class="hljs-attribute">borderRadius:</span> <span class="hljs-attribute">5</span>, <span class="hljs-attribute">tintColor:</span> &apos;#<span class="hljs-attribute">8e8e93</span>&apos; }]}
+            /&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-title">View</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-title">View</span>&gt;</span>
+      )</span>;
+    },
+  },
+  {
+    title: <span class="hljs-string">&apos;Resize Mode&apos;</span>,
+    description: <span class="hljs-string">&apos;The `resizeMode` style prop controls how the image is &apos;</span> +
+      <span class="hljs-string">&apos;rendered within the frame.&apos;</span>,
+    render: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+      <span class="hljs-keyword">return</span> (
+        <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-title">View</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">{styles.horizontal}</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">View</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-title">Text</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">{[styles.resizeModeText]}</span>&gt;</span>
+              Contain
+            <span class="hljs-tag">&lt;/<span class="hljs-title">Text</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-title">Image</span>
+              <span class="hljs-attribute">style</span>=<span class="hljs-value">{styles.resizeMode}</span>
+              <span class="hljs-attribute">resizeMode</span>=<span class="hljs-value">{Image.resizeMode.contain}</span>
+              <span class="hljs-attribute">source</span>=<span class="hljs-value">{fullImage}</span>
+            /&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-title">View</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">View</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">{styles.leftMargin}</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-title">Text</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">{[styles.resizeModeText]}</span>&gt;</span>
+              Cover
+            <span class="hljs-tag">&lt;/<span class="hljs-title">Text</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-title">Image</span>
+              <span class="hljs-attribute">style</span>=<span class="hljs-value">{styles.resizeMode}</span>
+              <span class="hljs-attribute">resizeMode</span>=<span class="hljs-value">{Image.resizeMode.cover}</span>
+              <span class="hljs-attribute">source</span>=<span class="hljs-value">{fullImage}</span>
+            /&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-title">View</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">View</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">{styles.leftMargin}</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-title">Text</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">{[styles.resizeModeText]}</span>&gt;</span>
+              Stretch
+            <span class="hljs-tag">&lt;/<span class="hljs-title">Text</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-title">Image</span>
+              <span class="hljs-attribute">style</span>=<span class="hljs-value">{styles.resizeMode}</span>
+              <span class="hljs-attribute">resizeMode</span>=<span class="hljs-value">{Image.resizeMode.stretch}</span>
+              <span class="hljs-attribute">source</span>=<span class="hljs-value">{fullImage}</span>
+            /&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-title">View</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-title">View</span>&gt;</span>
+      )</span>;
+    },
+  },
+  {
+    title: <span class="hljs-string">&apos;Animated GIF&apos;</span>,
+    render: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+      <span class="hljs-keyword">return</span> (
+        <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-title">Image</span>
+          <span class="hljs-attribute">style</span>=<span class="hljs-value">{styles.gif}</span>
+          <span class="hljs-attribute">source</span>=<span class="hljs-value">{{uri:</span> &apos;<span class="hljs-attribute">http:</span>//<span class="hljs-attribute">38.media.tumblr.com</span>/<span class="hljs-attribute">9e9bd08c6e2d10561dd1fb4197df4c4e</span>/<span class="hljs-attribute">tumblr_mfqekpMktw1rn90umo1_500.gif</span>&apos;}}
+        /&gt;</span>
+      )</span>;
+    },
+    platform: <span class="hljs-string">&apos;ios&apos;</span>,
+  },
+  {
+    title: <span class="hljs-string">&apos;Base64 image&apos;</span>,
+    render: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+      <span class="hljs-keyword">return</span> (
+        <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-title">Image</span>
+          <span class="hljs-attribute">style</span>=<span class="hljs-value">{styles.base64}</span>
+          <span class="hljs-attribute">source</span>=<span class="hljs-value">{{uri:</span> <span class="hljs-attribute">base64Icon</span>, <span class="hljs-attribute">scale:</span> <span class="hljs-attribute">3</span>}}
+        /&gt;</span>
+      )</span>;
+    },
+    platform: <span class="hljs-string">&apos;ios&apos;</span>,
+  },
+  {
+    title: <span class="hljs-string">&apos;Cap Insets&apos;</span>,
+    description:
+      <span class="hljs-string">&apos;When the image is resized, the corners of the size specified &apos;</span> +
+      <span class="hljs-string">&apos;by capInsets will stay a fixed size, but the center content and &apos;</span> +
+      <span class="hljs-string">&apos;borders of the image will be stretched. This is useful for creating &apos;</span> +
+      <span class="hljs-string">&apos;resizable rounded buttons, shadows, and other resizable assets.&apos;</span>,
+    render: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+      <span class="hljs-keyword">return</span> <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-title">ImageCapInsetsExample</span> /&gt;</span>;</span>
+    },
+    platform: <span class="hljs-string">&apos;ios&apos;</span>,
+  },
+];
+
+<span class="hljs-keyword">var</span> fullImage = {uri: <span class="hljs-string">&apos;http://facebook.github.io/react/img/logo_og.png&apos;</span>};
+<span class="hljs-keyword">var</span> smallImage = {uri: <span class="hljs-string">&apos;http://facebook.github.io/react/img/logo_small_2x.png&apos;</span>};
+
+<span class="hljs-keyword">var</span> styles = StyleSheet.create({
+  base: {
+    width: <span class="hljs-number">38</span>,
+    height: <span class="hljs-number">38</span>,
+  },
+  progress: {
+    flex: <span class="hljs-number">1</span>,
+    alignItems: <span class="hljs-string">&apos;center&apos;</span>,
+    flexDirection: <span class="hljs-string">&apos;row&apos;</span>,
+    width: <span class="hljs-number">100</span>
+  },
+  leftMargin: {
+    marginLeft: <span class="hljs-number">10</span>,
+  },
+  background: {
+    backgroundColor: <span class="hljs-string">&apos;#222222&apos;</span>
+  },
+  sectionText: {
+    marginVertical: <span class="hljs-number">6</span>,
+  },
+  nestedText: {
+    marginLeft: <span class="hljs-number">12</span>,
+    marginTop: <span class="hljs-number">20</span>,
+    backgroundColor: <span class="hljs-string">&apos;transparent&apos;</span>,
+    color: <span class="hljs-string">&apos;white&apos;</span>
+  },
+  resizeMode: {
+    width: <span class="hljs-number">90</span>,
+    height: <span class="hljs-number">60</span>,
+    borderWidth: <span class="hljs-number">0.5</span>,
+    borderColor: <span class="hljs-string">&apos;black&apos;</span>
+  },
+  resizeModeText: {
+    fontSize: <span class="hljs-number">11</span>,
+    marginBottom: <span class="hljs-number">3</span>,
+  },
+  icon: {
+    width: <span class="hljs-number">15</span>,
+    height: <span class="hljs-number">15</span>,
+  },
+  horizontal: {
+    flexDirection: <span class="hljs-string">&apos;row&apos;</span>,
+  },
+  gif: {
+    flex: <span class="hljs-number">1</span>,
+    height: <span class="hljs-number">200</span>,
+  },
+  base64: {
+    flex: <span class="hljs-number">1</span>,
+    height: <span class="hljs-number">50</span>,
+    resizeMode: <span class="hljs-string">&apos;contain&apos;</span>,
+  },
+});
+</code></pre>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../docs/drawerlayoutandroid.html" class="navigation navigation-prev " aria-label="Previous page: DrawerLayoutAndroid"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../docs/listview.html" class="navigation navigation-next " aria-label="Next page: ListView"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>

@@ -1,0 +1,1699 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>植入原生应用 | React Native中文文档</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../docs/signed-apk-android.html" />
+    
+    
+    <link rel="prev" href="../docs/running-on-device-android.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="4.4"
+        data-chapter-title="植入原生应用"
+        data-filepath="docs/embedded-app-android.md"
+        data-basepath=".."
+        data-revision="Tue Jan 19 2016 17:58:59 GMT+0800 (CST)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" >
+            
+            <span><b>1.</b> 快速入门</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="docs/getting-started.html">
+            
+                
+                    <a href="../docs/getting-started.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        开始使用ReactNative
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="docs/android-setup.html">
+            
+                
+                    <a href="../docs/android-setup.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        安卓环境配置
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="docs/linux-windows-support.html">
+            
+                
+                    <a href="../docs/linux-windows-support.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                        Linux和Windows支持
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="docs/tutorial.html">
+            
+                
+                    <a href="../docs/tutorial.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.</b>
+                        
+                        新手引导
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" >
+            
+            <span><b>2.</b> 使用指南</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="docs/style.html">
+            
+                
+                    <a href="../docs/style.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        样式
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="docs/images.html">
+            
+                
+                    <a href="../docs/images.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        图片
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="docs/gesture-responder-system.html">
+            
+                
+                    <a href="../docs/gesture-responder-system.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        手势响应系统
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="docs/animations.html">
+            
+                
+                    <a href="../docs/animations.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                        动画
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="docs/accessibility.html">
+            
+                
+                    <a href="../docs/accessibility.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.</b>
+                        
+                        无障碍功能
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="docs/direct-manipulation.html">
+            
+                
+                    <a href="../docs/direct-manipulation.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.6.</b>
+                        
+                        直接操作
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="docs/debugging.html">
+            
+                
+                    <a href="../docs/debugging.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.7.</b>
+                        
+                        调试
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" data-path="docs/testing.html">
+            
+                
+                    <a href="../docs/testing.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.8.</b>
+                        
+                        自动化测试
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9" data-path="docs/javascript-environment.html">
+            
+                
+                    <a href="../docs/javascript-environment.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.9.</b>
+                        
+                        Javascript环境
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.10" data-path="docs/navigator-comparison.html">
+            
+                
+                    <a href="../docs/navigator-comparison.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.10.</b>
+                        
+                        导航器对比
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.11" data-path="docs/known-issues.html">
+            
+                
+                    <a href="../docs/known-issues.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.11.</b>
+                        
+                        已知问题
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.12" data-path="docs/performance.html">
+            
+                
+                    <a href="../docs/performance.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.12.</b>
+                        
+                        性能
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.13" data-path="docs/upgrading.html">
+            
+                
+                    <a href="../docs/upgrading.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.13.</b>
+                        
+                        升级
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.14" data-path="docs/platform-specific-code.html">
+            
+                
+                    <a href="../docs/platform-specific-code.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.14.</b>
+                        
+                        特定平台代码
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" >
+            
+            <span><b>3.</b> 使用指南(ISO)</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="docs/native-modules-ios.html">
+            
+                
+                    <a href="../docs/native-modules-ios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        原生模块
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="docs/native-component-ios.html">
+            
+                
+                    <a href="../docs/native-component-ios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        原生UI组件
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="docs/linking-libraries-ios.html">
+            
+                
+                    <a href="../docs/linking-libraries-ios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                        使用链接库
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="docs/running-on-device-ios.html">
+            
+                
+                    <a href="../docs/running-on-device-ios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.</b>
+                        
+                        在设备上运行
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="docs/embedded-app-ios.html">
+            
+                
+                    <a href="../docs/embedded-app-ios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.5.</b>
+                        
+                        植入原生应用
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="docs/communication-ios.html">
+            
+                
+                    <a href="../docs/communication-ios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.6.</b>
+                        
+                        在原生和ReactNative间通信
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" >
+            
+            <span><b>4.</b> 使用指南(Android)</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="docs/native-modules-android.html">
+            
+                
+                    <a href="../docs/native-modules-android.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        原生模块
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="docs/native-component-android.html">
+            
+                
+                    <a href="../docs/native-component-android.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                        原生UI组件
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="docs/running-on-device-android.html">
+            
+                
+                    <a href="../docs/running-on-device-android.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.3.</b>
+                        
+                        在设备上运行
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="4.4" data-path="docs/embedded-app-android.html">
+            
+                
+                    <a href="../docs/embedded-app-android.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.4.</b>
+                        
+                        植入原生应用
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5" data-path="docs/signed-apk-android.html">
+            
+                
+                    <a href="../docs/signed-apk-android.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.5.</b>
+                        
+                        生成已签名的APK
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6" data-path="docs/android-ui-performance.html">
+            
+                
+                    <a href="../docs/android-ui-performance.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.</b>
+                        
+                        调试AndroidUI性能
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.7" data-path="docs/android-buildingfromsource.html">
+            
+                
+                    <a href="../docs/android-buildingfromsource.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.7.</b>
+                        
+                        从源代码编译ReactNative
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5" >
+            
+            <span><b>5.</b> 组件</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1" data-path="docs/activityindicatorios.html">
+            
+                
+                    <a href="../docs/activityindicatorios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.</b>
+                        
+                        ActivityIndicatorIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="docs/datepickerios.html">
+            
+                
+                    <a href="../docs/datepickerios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.</b>
+                        
+                        DatePickerIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="docs/drawerlayoutandroid.html">
+            
+                
+                    <a href="../docs/drawerlayoutandroid.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.</b>
+                        
+                        DrawerLayoutAndroid
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.4" data-path="docs/image.html">
+            
+                
+                    <a href="../docs/image.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.4.</b>
+                        
+                        Image
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.5" data-path="docs/listview.html">
+            
+                
+                    <a href="../docs/listview.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.5.</b>
+                        
+                        ListView
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.6" data-path="docs/mapview.html">
+            
+                
+                    <a href="../docs/mapview.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.6.</b>
+                        
+                        MapView
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.7" data-path="docs/modal.html">
+            
+                
+                    <a href="../docs/modal.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.7.</b>
+                        
+                        Modal
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.8" data-path="docs/navigator.html">
+            
+                
+                    <a href="../docs/navigator.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.8.</b>
+                        
+                        Navigator
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.9" data-path="docs/navigatorios.html">
+            
+                
+                    <a href="../docs/navigatorios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.9.</b>
+                        
+                        NavigatorIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.10" data-path="docs/pickerios.html">
+            
+                
+                    <a href="../docs/pickerios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.10.</b>
+                        
+                        PickerIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.11" data-path="docs/progressbarandroid.html">
+            
+                
+                    <a href="../docs/progressbarandroid.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.11.</b>
+                        
+                        ProgressBarAndroid
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.12" data-path="docs/progressviewios.html">
+            
+                
+                    <a href="../docs/progressviewios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.12.</b>
+                        
+                        ProgressViewIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.13" data-path="docs/pulltorefreshviewandroid.html">
+            
+                
+                    <a href="../docs/pulltorefreshviewandroid.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.13.</b>
+                        
+                        PullToRefreshViewAndroid
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.14" data-path="docs/refreshcontrol.html">
+            
+                
+                    <a href="../docs/refreshcontrol.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.14.</b>
+                        
+                        RefreshControl
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.15" data-path="docs/scrollview.html">
+            
+                
+                    <a href="../docs/scrollview.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.15.</b>
+                        
+                        ScrollView
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.16" data-path="docs/segmentedcontrolios.html">
+            
+                
+                    <a href="../docs/segmentedcontrolios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.16.</b>
+                        
+                        SegmentedControllIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.17" data-path="docs/sliderios.html">
+            
+                
+                    <a href="../docs/sliderios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.17.</b>
+                        
+                        SliderIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.18" data-path="docs/switch.html">
+            
+                
+                    <a href="../docs/switch.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.18.</b>
+                        
+                        Switch
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.19" data-path="docs/tabbarios.html">
+            
+                
+                    <a href="../docs/tabbarios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.19.</b>
+                        
+                        TabBarIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.20" data-path="docs/tabbarios-item.html">
+            
+                
+                    <a href="../docs/tabbarios-item.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.20.</b>
+                        
+                        TabBarIOS.Item
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.21" data-path="docs/text.html">
+            
+                
+                    <a href="../docs/text.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.21.</b>
+                        
+                        Text
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.22" data-path="docs/textinput.html">
+            
+                
+                    <a href="../docs/textinput.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.22.</b>
+                        
+                        TextInput
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.23" data-path="docs/toolbarandroid.html">
+            
+                
+                    <a href="../docs/toolbarandroid.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.23.</b>
+                        
+                        ToolbarAndroid
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.24" data-path="docs/touchablehighlight.html">
+            
+                
+                    <a href="../docs/touchablehighlight.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.24.</b>
+                        
+                        TouchableHighlight
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.25" data-path="docs/touchablenativefeedback.html">
+            
+                
+                    <a href="../docs/touchablenativefeedback.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.25.</b>
+                        
+                        TouchableNativeFeedback
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.26" data-path="docs/touchableopacity.html">
+            
+                
+                    <a href="../docs/touchableopacity.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.26.</b>
+                        
+                        TouchableOpacity
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.27" data-path="docs/touchablewithoutfeedback.html">
+            
+                
+                    <a href="../docs/touchablewithoutfeedback.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.27.</b>
+                        
+                        TouchableWithoutFeedback
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.28" data-path="docs/view.html">
+            
+                
+                    <a href="../docs/view.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.28.</b>
+                        
+                        View
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.29" data-path="docs/viewpagerandroid.html">
+            
+                
+                    <a href="../docs/viewpagerandroid.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.29.</b>
+                        
+                        ViewPagerAndroid
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.30" data-path="docs/webview.html">
+            
+                
+                    <a href="../docs/webview.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.30.</b>
+                        
+                        WebView
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6" >
+            
+            <span><b>6.</b> API</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1" data-path="docs/actionsheetios.html">
+            
+                
+                    <a href="../docs/actionsheetios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.1.</b>
+                        
+                        ctionSheetIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="docs/alert.html">
+            
+                
+                    <a href="../docs/alert.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.2.</b>
+                        
+                        Alert
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.3" data-path="docs/alertios.html">
+            
+                
+                    <a href="../docs/alertios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.3.</b>
+                        
+                        AlertIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.4" data-path="docs/animated.html">
+            
+            <span><b>6.4.</b> Animated</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5" data-path="docs/appregistry.html">
+            
+                
+                    <a href="../docs/appregistry.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.5.</b>
+                        
+                        AppRegistry
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.6" data-path="docs/appstateios.html">
+            
+                
+                    <a href="../docs/appstateios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.6.</b>
+                        
+                        AppStateIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.7" data-path="docs/asyncstorage.html">
+            
+                
+                    <a href="../docs/asyncstorage.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.7.</b>
+                        
+                        AsyncStorage
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.8" data-path="docs/backandroid.html">
+            
+                
+                    <a href="../docs/backandroid.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.8.</b>
+                        
+                        BackAndroid
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.9" data-path="docs/cameraroll.html">
+            
+                
+                    <a href="../docs/cameraroll.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.9.</b>
+                        
+                        CameraRoll
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.10" data-path="docs/dimensions.html">
+            
+                
+                    <a href="../docs/dimensions.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.10.</b>
+                        
+                        Dimensions
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.11" data-path="docs/intentandroid.html">
+            
+                
+                    <a href="../docs/intentandroid.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.11.</b>
+                        
+                        IntentAndroid
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.12" data-path="docs/interactionmanager.html">
+            
+                
+                    <a href="../docs/interactionmanager.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.12.</b>
+                        
+                        InteractionManager
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.13" data-path="docs/layoutanimation.html">
+            
+                
+                    <a href="../docs/layoutanimation.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.13.</b>
+                        
+                        LayoutAnimation
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.14" data-path="docs/linkingios.html">
+            
+                
+                    <a href="../docs/linkingios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.14.</b>
+                        
+                        LinkingIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.15" data-path="docs/nativemethodsmixin.html">
+            
+                
+                    <a href="../docs/nativemethodsmixin.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.15.</b>
+                        
+                        NativeMethodsMixin
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.16" data-path="docs/netinfo.html">
+            
+                
+                    <a href="../docs/netinfo.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.16.</b>
+                        
+                        NetInfo
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.17" data-path="docs/panresponder.html">
+            
+                
+                    <a href="../docs/panresponder.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.17.</b>
+                        
+                        PanResponder
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.18" data-path="docs/pixelratio.html">
+            
+                
+                    <a href="../docs/pixelratio.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.18.</b>
+                        
+                        PixelRatio
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.19" data-path="docs/pushnotificationios.html">
+            
+                
+                    <a href="../docs/pushnotificationios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.19.</b>
+                        
+                        PushNotificationIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.20" data-path="docs/statusbarios.html">
+            
+                
+                    <a href="../docs/statusbarios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.20.</b>
+                        
+                        StatusBarIOS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.21" data-path="docs/stylesheet.html">
+            
+                
+                    <a href="../docs/stylesheet.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.21.</b>
+                        
+                        StyleSheet
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.22" data-path="docs/toastandroid.html">
+            
+                
+                    <a href="../docs/toastandroid.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.22.</b>
+                        
+                        ToastAndroid
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.23" data-path="docs/vibrationios.html">
+            
+                
+                    <a href="../docs/vibrationios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.23.</b>
+                        
+                        VibrationIOS
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7" >
+            
+            <span><b>7.</b> 接口兼容(POLYFILLS)</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.1" data-path="docs/flexbox.html">
+            
+                
+                    <a href="../docs/flexbox.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.1.</b>
+                        
+                        弹性盒(Flexbox)
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="docs/geolocation.html">
+            
+                
+                    <a href="../docs/geolocation.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.2.</b>
+                        
+                        定位
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.3" data-path="docs/network.html">
+            
+                
+                    <a href="../docs/network.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.3.</b>
+                        
+                        网络
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.4" data-path="docs/timers.html">
+            
+                
+                    <a href="../docs/timers.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.4.</b>
+                        
+                        定时器
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >React Native中文文档</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <p>&#x7531;&#x4E8E;React&#x5E76;&#x6CA1;&#x6709;&#x5047;&#x8BBE;&#x4F60;&#x5176;&#x4F59;&#x90E8;&#x5206;&#x7684;&#x6280;&#x672F;&#x6808;&#x2014;&#x2014;&#x5B83;&#x901A;&#x5E38;&#x53EA;&#x4F5C;&#x4E3A;<code>MVC</code>&#x6A21;&#x578B;&#x4E2D;&#x7684;<code>V</code>&#x5B58;&#x5728;&#x2014;&#x2014;&#x5B83;&#x4E5F;&#x5F88;&#x5BB9;&#x6613;&#x5D4C;&#x5165;&#x5230;&#x4E00;&#x4E2A;&#x5E76;&#x975E;&#x7531;React Native&#x5F00;&#x53D1;&#x7684;&#x5E94;&#x7528;&#x5F53;&#x4E2D;&#x3002;</p>
+<h2 id="&#x9700;&#x6C42;">&#x9700;&#x6C42;</h2>
+<ul>
+<li>&#x4E00;&#x4E2A;&#x5DF2;&#x6709;&#x7684;&#x3001;&#x57FA;&#x4E8E;gradle&#x6784;&#x5EFA;&#x7684;Android&#x5E94;&#x7528;</li>
+<li>Node.js&#xFF0C;&#x53C2;&#x89C1;<a href="getting-start.md">&#x5F00;&#x59CB;&#x4F7F;&#x7528;React Native</a>&#x6765;&#x4E86;&#x89E3;&#x76F8;&#x5173;&#x7684;&#x8BBE;&#x7F6E;&#x64CD;&#x4F5C;&#x3002;</li>
+</ul>
+<h2 id="&#x51C6;&#x5907;&#x4F60;&#x7684;app">&#x51C6;&#x5907;&#x4F60;&#x7684;App</h2>
+<p>&#x5728;&#x4F60;&#x7684;App&#x91CC;&#x7684;<code>build.gradle</code>&#x6587;&#x4EF6;&#x4E2D;&#xFF0C;&#x6DFB;&#x52A0;React Native&#x4F9D;&#x8D56;&#xFF1A;</p>
+<pre><code>compile &apos;com.facebook.react:react-native:0.17.+&apos;
+</code></pre><p>&#x4F60;&#x53EF;&#x4EE5;&#x5728;<a href="http://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22com.facebook.react%22%20AND%20a%3A%22react-native%22" target="_blank">Maven&#x4E2D;&#x592E;&#x5E93;</a> <a href="http://maven.oschina.net/index.html#nexus-search;quick~React native" target="_blank">&#x56FD;&#x5185;&#x955C;&#x50CF;</a> &#x67E5;&#x8BE2;&#x5230;React Native&#x5E93;&#x7684;&#x6700;&#x65B0;&#x7248;&#x672C;&#x3002;&#x7136;&#x540E;&#xFF0C;&#x5728;&#x4F60;&#x7684;<code>AndroidManifest.xml</code>&#x91CC;&#x589E;&#x52A0;Internet&#x8BBF;&#x95EE;&#x6743;&#x9650;&#xFF1A;</p>
+<pre><code class="lang-xml">    <span class="hljs-tag">&lt;<span class="hljs-title">uses-permission</span> <span class="hljs-attribute">android:name</span>=<span class="hljs-value">&quot;android.permission.INTERNET&quot;</span> /&gt;</span>
+</code></pre>
+<p>&#x8FD9;&#x4E2A;&#x4EC5;&#x4EC5;&#x5728;&#x8C03;&#x8BD5;&#x6A21;&#x5F0F;&#x4ECE;&#x5F00;&#x53D1;&#x670D;&#x52A1;&#x5668;&#x52A0;&#x8F7D;JavaScript&#x4EE3;&#x7801;&#x7684;&#x65F6;&#x5019;&#x7528;&#x5230;&#xFF0C;&#x6240;&#x4EE5;&#x4F60;&#x53EF;&#x4EE5;&#x5728;&#x6784;&#x5EFA;&#x53D1;&#x884C;&#x5305;&#x7684;&#x65F6;&#x5019;&#x628A;&#x8FD9;&#x6761;&#x8BED;&#x53E5;&#x53BB;&#x6389;&#x3002;</p>
+<h2 id="&#x6DFB;&#x52A0;&#x539F;&#x751F;&#x4EE3;&#x7801;">&#x6DFB;&#x52A0;&#x539F;&#x751F;&#x4EE3;&#x7801;</h2>
+<p>&#x4F60;&#x9700;&#x8981;&#x6DFB;&#x52A0;&#x4E00;&#x4E9B;&#x539F;&#x751F;&#x4EE3;&#x7801;&#x6765;&#x542F;&#x52A8;React Native&#x8FD0;&#x884C;&#x5E93;&#x4EE5;&#x53CA;&#x8BA9;&#x5B83;&#x6E32;&#x67D3;&#x51FA;&#x4E1C;&#x897F;&#x6765;&#x3002;&#x6211;&#x4EEC;&#x63A5;&#x4E0B;&#x6765;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;<code>Activity</code>&#x548C;&#x4E00;&#x4E2A;<code>ReactRootView</code>&#xFF0C;&#x7136;&#x540E;&#x5728;&#x91CC;&#x9762;&#x542F;&#x52A8;&#x4E00;&#x4E2A;React&#x5E94;&#x7528;&#x5E76;&#x628A;&#x5B83;&#x8BBE;&#x7F6E;&#x4E3A;<code>Activity</code>&#x7684;&#x4E3B;&#x8981;&#x5185;&#x5BB9;&#x89C6;&#x56FE;&#x3002;</p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyReactActivity</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Activity</span> <span class="hljs-keyword">implements</span> <span class="hljs-title">DefaultHardwareBackBtnHandler</span> </span>{
+    <span class="hljs-keyword">private</span> ReactRootView mReactRootView;
+    <span class="hljs-keyword">private</span> ReactInstanceManager mReactInstanceManager;
+
+    <span class="hljs-annotation">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">protected</span> <span class="hljs-keyword">void</span> <span class="hljs-title">onCreate</span><span class="hljs-params">(Bundle savedInstanceState)</span> </span>{
+        <span class="hljs-keyword">super</span>.onCreate(savedInstanceState);
+
+        mReactRootView = <span class="hljs-keyword">new</span> ReactRootView(<span class="hljs-keyword">this</span>);
+        mReactInstanceManager = ReactInstanceManager.builder()
+                .setApplication(getApplication())
+                .setBundleAssetName(<span class="hljs-string">&quot;index.android.bundle&quot;</span>)
+                .setJSMainModuleName(<span class="hljs-string">&quot;index.android&quot;</span>)
+                .addPackage(<span class="hljs-keyword">new</span> MainReactPackage())
+                .setUseDeveloperSupport(BuildConfig.DEBUG)
+                .setInitialLifecycleState(LifecycleState.RESUMED)
+                .build();
+        mReactRootView.startReactApplication(mReactInstanceManager, <span class="hljs-string">&quot;MyAwesomeApp&quot;</span>, <span class="hljs-keyword">null</span>);
+
+        setContentView(mReactRootView);
+    }
+
+    <span class="hljs-annotation">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">invokeDefaultOnBackPressed</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">super</span>.onBackPressed();
+    }
+}
+</code></pre>
+<p>&#x63A5;&#x4E0B;&#x6765;&#xFF0C;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x4F20;&#x9012;&#x4E00;&#x4E9B;Activity&#x7684;&#x751F;&#x547D;&#x5468;&#x671F;&#x4E8B;&#x4EF6;&#x5230;<code>ReactInstanceManager</code>&#xFF1A;</p>
+<pre><code class="lang-java"><span class="hljs-annotation">@Override</span>
+<span class="hljs-function"><span class="hljs-keyword">protected</span> <span class="hljs-keyword">void</span> <span class="hljs-title">onPause</span><span class="hljs-params">()</span> </span>{
+    <span class="hljs-keyword">super</span>.onPause();
+
+    <span class="hljs-keyword">if</span> (mReactInstanceManager != <span class="hljs-keyword">null</span>) {
+        mReactInstanceManager.onPause();
+    }
+}
+
+<span class="hljs-annotation">@Override</span>
+<span class="hljs-function"><span class="hljs-keyword">protected</span> <span class="hljs-keyword">void</span> <span class="hljs-title">onResume</span><span class="hljs-params">()</span> </span>{
+    <span class="hljs-keyword">super</span>.onResume();
+
+    <span class="hljs-keyword">if</span> (mReactInstanceManager != <span class="hljs-keyword">null</span>) {
+        mReactInstanceManager.onResume(<span class="hljs-keyword">this</span>, <span class="hljs-keyword">this</span>);
+    }
+}
+</code></pre>
+<p>&#x6211;&#x4EEC;&#x8FD8;&#x9700;&#x8981;&#x628A;Back&#x6309;&#x94AE;&#x4E8B;&#x4EF6;&#x4F20;&#x9012;&#x7ED9;React native&#xFF1A;</p>
+<pre><code class="lang-java"><span class="hljs-annotation">@Override</span>
+ <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">onBackPressed</span><span class="hljs-params">()</span> </span>{
+    <span class="hljs-keyword">if</span> (mReactInstanceManager != <span class="hljs-keyword">null</span>) {
+        mReactInstanceManager.onBackPressed();
+    } <span class="hljs-keyword">else</span> {
+        <span class="hljs-keyword">super</span>.onBackPressed();
+    }
+}
+</code></pre>
+<p>&#x8FD9;&#x4F7F;&#x5F97;JavaScript&#x4EE3;&#x7801;&#x53EF;&#x4EE5;&#x63A7;&#x5236;&#x5F53;&#x7528;&#x6237;&#x6309;&#x4E0B;&#x8FD4;&#x56DE;&#x952E;&#x7684;&#x65F6;&#x5019;&#x4F5C;&#x4F55;&#x5904;&#x7406;&#xFF08;&#x8B6C;&#x5982;&#x63A7;&#x5236;&#x5BFC;&#x822A;&#x7684;&#x5207;&#x6362;&#x7B49;&#x7B49;&#xFF09;&#x3002;&#x5982;&#x679C;JavaScript&#x7AEF;&#x4E0D;&#x5904;&#x7406;&#x76F8;&#x5E94;&#x7684;&#x4E8B;&#x4EF6;&#xFF0C;&#x4F60;&#x7684;<code>invokeDefaultOnBackPressed</code> &#x65B9;&#x6CD5;&#x4F1A;&#x88AB;&#x8C03;&#x7528;&#x3002;&#x9ED8;&#x8BA4;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x8FD9;&#x4F1A;&#x76F4;&#x63A5;&#x7ED3;&#x675F;&#x4F60;&#x7684;<code>Activity</code>&#x3002;</p>
+<p>&#x6700;&#x540E;&#xFF0C;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x6539;&#x52A8;&#x4E00;&#x4E0B;&#x5F00;&#x53D1;&#x8005;&#x83DC;&#x5355;&#x3002;&#x9ED8;&#x8BA4;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x5F00;&#x53D1;&#x8005;&#x83DC;&#x5355;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x6447;&#x6643;&#x8BBE;&#x5907;&#x6765;&#x89E6;&#x53D1;&#xFF0C;&#x4E0D;&#x8FC7;&#x8FD9;&#x5BF9;&#x6A21;&#x62DF;&#x5668;&#x4E0D;&#x662F;&#x5F88;&#x6709;&#x7528;&#x3002;&#x6240;&#x4EE5;&#x6211;&#x4EEC;&#x8BA9;&#x5B83;&#x5728;&#x6309;&#x4E0B;Menu&#x952E;&#x7684;&#x65F6;&#x5019;&#x4E5F;&#x53EF;&#x4EE5;&#x88AB;&#x663E;&#x793A;&#xFF1A;</p>
+<pre><code class="lang-java"><span class="hljs-annotation">@Override</span>
+<span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">boolean</span> <span class="hljs-title">onKeyUp</span><span class="hljs-params">(<span class="hljs-keyword">int</span> keyCode, KeyEvent event)</span> </span>{
+    <span class="hljs-keyword">if</span> (keyCode == KeyEvent.KEYCODE_MENU &amp;&amp; mReactInstanceManager != <span class="hljs-keyword">null</span>) {
+        mReactInstanceManager.showDevOptionsDialog();
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">true</span>;
+    }
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">super</span>.onKeyUp(keyCode, event);
+}
+</code></pre>
+<p>&#x5230;&#x6B64;&#x4E3A;&#x6B62;&#xFF0C;&#x4F60;&#x7684;Activity&#x5DF2;&#x7ECF;&#x53EF;&#x4EE5;&#x542F;&#x52A8;&#x5E76;&#x8FD0;&#x884C;&#x4E00;&#x4E9B;JavaScript&#x4EE3;&#x7801;&#x3002;</p>
+<h2 id="&#x628A;js&#x4EE3;&#x7801;&#x6DFB;&#x52A0;&#x5230;&#x4F60;&#x7684;&#x5E94;&#x7528;">&#x628A;JS&#x4EE3;&#x7801;&#x6DFB;&#x52A0;&#x5230;&#x4F60;&#x7684;&#x5E94;&#x7528;</h2>
+<p>&#x5728;&#x4F60;&#x7684;&#x5DE5;&#x7A0B;&#x6839;&#x76EE;&#x5F55;&#xFF0C;&#x8FD0;&#x884C;&#x4EE5;&#x4E0B;&#x4EE3;&#x7801;&#xFF1A;</p>
+<pre><code>$ npm init
+$ npm install --save react-native
+$ curl -o .flowconfig https://raw.githubusercontent.com/facebook/react-native/master/.flowconfig
+</code></pre><p>&#x4E0A;&#x9762;&#x7684;&#x4EE3;&#x7801;&#x4F1A;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;node&#x6A21;&#x5757;&#xFF0C;&#x7136;&#x540E;<code>react-native</code>&#x4F5C;&#x4E3A;npm&#x4F9D;&#x8D56;&#x6DFB;&#x52A0;&#x3002;&#x73B0;&#x5728;&#x6253;&#x5F00;&#x65B0;&#x521B;&#x5EFA;&#x7684;<code>package.json</code>&#x6587;&#x4EF6;&#x7136;&#x540E;&#x5728;<code>scripts</code>&#x5B57;&#x6BB5;&#x4E0B;&#x6DFB;&#x52A0;&#x5982;&#x4E0B;&#x5185;&#x5BB9;&#xFF1A;</p>
+<pre><code class="lang-javascript"><span class="hljs-string">&quot;start&quot;</span>: <span class="hljs-string">&quot;node_modules/react-native/packager/packager.sh&quot;</span>
+</code></pre>
+<p>&#x590D;&#x5236;&#x5E76;&#x7C98;&#x8D34;&#x4E0B;&#x9762;&#x7684;&#x8FD9;&#x6BB5;&#x4EE3;&#x7801;&#x5230;&#x4F60;&#x5DE5;&#x7A0B;&#x6839;&#x76EE;&#x5F55;&#x4E0B;&#x7684;<code>index.android.js</code>&#x2014;&#x2014;&#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x7684;React Native&#x5E94;&#x7528;&#xFF1A;</p>
+<pre><code class="lang-js"><span class="hljs-pi">&apos;use strict&apos;</span>;
+
+<span class="hljs-keyword">var</span> React = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;react-native&apos;</span>);
+<span class="hljs-keyword">var</span> {
+  Text,
+  View
+} = React;
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MyAwesomeApp</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span> </span>{
+  render() {
+    <span class="hljs-keyword">return</span> (
+      <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-title">View</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">{styles.container}</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">Text</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">{styles.hello}</span>&gt;</span>Hello, World<span class="hljs-tag">&lt;/<span class="hljs-title">Text</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-title">View</span>&gt;</span>
+    )</span>
+  }
+}
+<span class="hljs-keyword">var</span> styles = React.StyleSheet.create({
+  container: {
+    flex: <span class="hljs-number">1</span>,
+    justifyContent: <span class="hljs-string">&apos;center&apos;</span>,
+  },
+  hello: {
+    fontSize: <span class="hljs-number">20</span>,
+    textAlign: <span class="hljs-string">&apos;center&apos;</span>,
+    margin: <span class="hljs-number">10</span>,
+  },
+});
+
+React.AppRegistry.registerComponent(<span class="hljs-string">&apos;MyAwesomeApp&apos;</span>, () =&gt; MyAwesomeApp);
+</code></pre>
+<h2 id="&#x8FD0;&#x884C;&#x4F60;&#x7684;&#x5E94;&#x7528;">&#x8FD0;&#x884C;&#x4F60;&#x7684;&#x5E94;&#x7528;</h2>
+<p>&#x4E3A;&#x4E86;&#x8FD0;&#x884C;&#x4F60;&#x7684;&#x5E94;&#x7528;&#xFF0C;&#x9996;&#x5148;&#x8981;&#x542F;&#x52A8;&#x5F00;&#x53D1;&#x670D;&#x52A1;&#x5668;&#x3002;&#x53EA;&#x9700;&#x8981;&#x5728;&#x4F60;&#x7684;&#x5DE5;&#x7A0B;&#x76EE;&#x5F55;&#x4E0B;&#x8FD0;&#x884C;&#x8FD9;&#x6BB5;&#x4EE3;&#x7801;&#xFF1A;</p>
+<pre><code>$ npm start
+</code></pre><p>&#x73B0;&#x5728;&#x6765;&#x6784;&#x5EFA;&#x548C;&#x8FD0;&#x884C;&#x4F60;&#x7684;Android&#x5E94;&#x7528;&#xFF08;&#x8B6C;&#x5982;<code>./gradlew installDebug</code>&#xFF09;&#x3002;&#x4E00;&#x65E6;&#x542F;&#x52A8;&#x4E86;React Native&#x5236;&#x4F5C;&#x7684;Activity&#xFF0C;&#x5B83;&#x5E94;&#x8BE5;&#x4F1A;&#x4ECE;&#x5F00;&#x53D1;&#x670D;&#x52A1;&#x5668;&#x52A0;&#x8F7D;&#x4EE3;&#x7801;&#x5E76;&#x663E;&#x793A;&#xFF1A;</p>
+<p><img src="../img/EmbeddedAppAndroid.png" alt="Screenshot"></p>
+<h2 id="&#x5728;&#x591A;&#x4E2A;activityfragment&#x4E4B;&#x95F4;&#x5171;&#x4EAB;&#x4E00;&#x4E2A;reactinstance">&#x5728;&#x591A;&#x4E2A;Activity/Fragment&#x4E4B;&#x95F4;&#x5171;&#x4EAB;&#x4E00;&#x4E2A;ReactInstance</h2>
+<p>&#x4F60;&#x53EF;&#x4EE5;&#x6709;&#x591A;&#x4E2A;Activity&#x6216;&#x8005;Fragment&#xFF0C;&#x5B83;&#x4EEC;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x540C;&#x4E00;&#x4E2A;<code>ReactInstancemanager</code>&#x3002;&#x8B6C;&#x5982;&#x4F60;&#x60F3;&#x521B;&#x5EFA;&#x81EA;&#x5B9A;&#x4E49;&#x7684;&quot;ReactFragmenet&quot;&#x6216;&#x8005;&quot;ReactActivity&quot;&#xFF0C;&#x90A3;&#x4E48;&#x53EF;&#x80FD;&#x9700;&#x8981;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x5355;&#x4F8B;&#x5BF9;&#x8C61;&#x6765;&#x4FDD;&#x5B58;<code>ReactInstanceManager</code>&#x7684;&#x5F15;&#x7528;&#x3002;&#x5F53;&#x4F60;&#x9700;&#x8981;ReactInstanceManager&#x6216;&#x8005;&#x4F20;&#x9012;&#x4E00;&#x4E9B;Activity&#x6216;&#x8005;Fragment&#x7684;&#x751F;&#x547D;&#x5468;&#x671F;&#x4E8B;&#x4EF6;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x5355;&#x4F8B;&#x5BF9;&#x8C61;&#x6240;&#x63D0;&#x4F9B;&#x7684;&#x5F15;&#x7528;&#x3002;</p>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../docs/running-on-device-android.html" class="navigation navigation-prev " aria-label="Previous page: 在设备上运行"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../docs/signed-apk-android.html" class="navigation navigation-next " aria-label="Next page: 生成已签名的APK"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
