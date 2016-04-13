@@ -1,5 +1,6 @@
 # React Native中文文档
-
+## 本文档基于论坛doc的0.23版本生成,会不定期更新.
+### 方便kindle等移动设备离线阅读.
 
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
