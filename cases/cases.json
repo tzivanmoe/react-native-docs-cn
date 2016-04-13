@@ -52,14 +52,14 @@
 		"name": "烘培帮",
 		"desc": "烘培",
 		"ios": "https://itunes.apple.com/cn/app/hong-bei-bang-hai-liang-hong/id1007812319?mt=8",
-		"android": "",
+		"android": "http://beta.qq.com/m/8beq",
 		"icon": "http://a1.mzstatic.com/us/r30/Purple69/v4/79/85/ba/7985ba1d-a807-7c34-98f1-e9e2ed5d2cb5/icon175x175.jpeg"
 	},
 	{
 		"name": "P图社区",
 		"desc": "P图社区APP",
-		"ios": "",
-		"android": "http://cdn.52ptu.com/app/ptu.apk",
+		"ios": "https://itunes.apple.com/cn/app/p-tu-she-qu-xiang-su-hua-pi/id1077221097?l=en&mt=8",
+		"android": "http://52ptu.com/",
 		"icon": "http://7u2qiz.com1.z0.glb.clouddn.com/ic_launcher.png"
 	},
 	{
@@ -73,7 +73,7 @@
 	{
 		"name": "专业囚徒健身",
 		"desc": "失传的技艺",
-		"ios": "",
+		"ios": "https://itunes.apple.com/us/app/zhuan-ye-qiu-tu-jian-shen/id1074599488?l=zh&ls=1&mt=8",
 		"android": "http://dd.myapp.com/16891/57D18E237AB9BD450BCAF73228FEBF23.apk?fsname=com.prisonerfitness_1.0_1.apk",
 		"icon": "http://7xpb7b.media1.z0.glb.clouddn.com/512.png"
 	},
@@ -83,5 +83,33 @@
 		"ios": "",
 		"android": "http://img.axmall.com.au/client/axmall_v1.2.apk",
 		"icon": "http://img.axmall.com.au/2/956461437200352.gif"
+	},
+	{
+		"name": "成都眼",
+		"desc": "4c.cn安卓客户端",
+		"ios": "",
+		"android": "https://app.4c.cn/apks/app-chanp-release.apk",
+		"icon": "https://app.4c.cn/appicon@100.png"
+	},
+	{
+		"name": "云订货",
+		"desc": "云订货-让订货更简单",
+		"ios": "https://itunes.apple.com/cn/app/yun-ding-huo-rang-ding-huo/id1042554148?mt=8",
+		"android": "http://d2papp.api.qianmi.com/",
+		"icon": "http://pic.ofcard.com//yunxiao/point/demo/img/logo1.png"
+	},
+	{
+		"name": "婚格",
+		"desc": "婚格-让结婚更简单",
+		"ios": "https://itunes.apple.com/cn/app/hun-ge-rang-jie-hun-geng-jian/id1062457289?mt=8",
+		"android": "http://7xsmao.com2.z0.glb.qiniucdn.com/app-release.apk",
+		"icon": "http://a1.mzstatic.com/us/r30/Purple49/v4/d2/fc/4b/d2fc4bfb-34c8-8b78-1126-6e81fc95a520/icon175x175.png"
+	},
+	{
+		"name": "趣住啊",
+		"desc": "趣住啊-出境游短租神器",
+		"ios": "https://itunes.apple.com/cn/app/id1047180157",
+		"android": "",
+		"icon": "http://a3.mzstatic.com/us/r30/Purple69/v4/37/25/86/3725864d-f577-8a7a-4d8d-e5657bcc062b/icon175x175.png"
 	}
 ]
