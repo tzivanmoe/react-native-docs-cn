@@ -1,10 +1,22 @@
-# React Native中文文档
-## 本文档基于论坛doc的0.23版本生成,会不定期更新.
-### 方便kindle等移动设备离线阅读.
+# 第四版重构
 
+我们正在对[React Native 中文网](http://react-native.cn/)进行第四版重构，这次重构主要目标是优化,具体方式包括:
 
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
-<img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
-</a>
-<br />
-<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">React Native中文文档</span> 由 <a xmlns:cc="http://creativecommons.org/ns#" href="http://reactnative.cn" property="cc:attributionName" rel="cc:attributionURL">React Native中文网</a> 创作，采用 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">知识共享 署名 4.0 国际 许可协议</a>进行许可。<br />基于<a xmlns:dct="http://purl.org/dc/terms/" href="http://facebook.github.io/react-native" rel="dct:source">http://facebook.github.io/react-native</a>上的作品创作。
+1. 减少server-rendering的开销,包括页面静态化和动态页面缓存
+2. 引入CI预编译,减少线上服务器的构建开销
+3. 移除redux的使用,改用更直接的react方式
+4. 在运行环境抛弃babel-register,改为预编译的babel方式
+
+## 提交文档
+请访问[文档所在的仓库](https://github.com/reactnativecn/react-native.cn/tree/stable/docs/docs)，fork后新建或修订文档，然后创建Pull Request。我们会在第一时间审阅。欢迎社区的朋友们踊跃贡献！
+
+## 开发环境
+
+#### Windows
+
+Windows下受到一些限制，所以必须要执行以下命令
+
+```bash
+npm run webpack
+rd /s /q build
+```
