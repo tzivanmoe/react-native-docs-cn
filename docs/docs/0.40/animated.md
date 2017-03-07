@@ -258,7 +258,7 @@ class DraggableView extends React.Component {
 ```
 
 ### 方法
-
+```javascript
 <div class="props">
 	<div class="prop">
 		<h4 class="propTitle"><a class="anchor" name="constructor"></a>constructor<span class="propType">(valueIn?: ?{x: number | AnimatedValue; y: number | AnimatedValue})</span> <a class="hash-link" href="#constructor">#</a></h4>
@@ -300,11 +300,14 @@ class DraggableView extends React.Component {
 		<h4 class="propTitle"><a class="anchor" name="gettranslatetransform"></a>getTranslateTransform<span class="propType">()</span> <a class="hash-link" href="#gettranslatetransform">#</a></h4>
 		<div>
 			<p>将一个<code>{x, y}</code> 组合转换为一个可用的位移变换(translation transform)，例如：</p>
-			<pre><code class="lang-javascript"> style={{ transform: <span class="hljs-keyword">this</span>.state.anim.getTranslateTransform() }}
+			<pre><code class="lang-javascript"> style={{
+   transform: <span class="hljs-keyword">this</span>.state.anim.getTranslateTransform()
+ }}
 </code></pre>
 		</div>
 	</div>
 </div>
+```
 
  ### 例子
 
