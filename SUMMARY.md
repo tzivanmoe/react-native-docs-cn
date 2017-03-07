@@ -30,7 +30,7 @@
 	- [特定平台代码](/docs/docs/0.40/platform-specific-code.md)
 	- [手势响应系统](/docs/docs/0.40/gesture-responder-system.md)
 
-*使用指南- (iOS)
+* 使用指南- (iOS)
 	- [原生模块](/docs/docs/0.40/native-modules-ios.md)
 	- [原生UI组件](/docs/docs/0.40/native-component-ios.md)
 	- [链接原生库](/docs/docs/0.40/linking-libraries-ios.md)
@@ -38,7 +38,7 @@
 	- [在模拟器上运行](/docs/docs/0.40/running-on-simulator-ios.md)
 	- [在原生和React Native间通信](/docs/docs/0.40/communication-ios.md)
 
-*使用指南- (Android)
+* 使用指南- (Android)
 	- [原生模块](/docs/docs/0.40/native-modules-android.md)
 	- [原生UI组件](/docs/docs/0.40/native-component-android.md)
 	- [Headless JS（后台任务）](/docs/docs/0.40/headless-js-android.md)
@@ -47,7 +47,7 @@
 	- [调试Android UI性能](/docs/docs/0.40/android-ui-performance.md)
 	- [从源代码编译React Native](/docs/docs/0.40/android-building-from-source.md)
 
-*组件
+* 组件
 	- [ActivityIndicator](/docs/docs/0.40/activityindicator.md)
 	- [Button](/docs/docs/0.40/button.md)
 	- [DatePickerIOS](/docs/docs/0.40/datepickerios.md)
