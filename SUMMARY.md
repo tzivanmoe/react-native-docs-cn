@@ -1,31 +1,31 @@
 * 入门基础
-	- [搭建开发环境](/docs/0.40/getting-started.md)
-	- [编写Hello World](/docs/0.40/tutorial.md)
-	- [Props（属性）](/docs/0.40/props.md)
-	- [State（状态）](/docs/0.40/state.md)
-	- [样式](/docs/0.40/style.md)
-	- [高度与宽度](/docs/0.40/height-and-width.md)
-	- [使用Flexbox布局](/docs/0.40/layout-with-flexbox.md)
-	- [处理文本输入](/docs/0.40/handling-text-input.md)
-	- [如何使用ScrollView](/docs/0.40/using-a-scrollview.md)
-	- [如何使用ListView](/docs/0.40/using-a-listview.md)
-	- [网络](/docs/0.40/network.md)
-	- [使用导航器跳转页面](/docs/0.40/using-navigators.md)
-	- [其他参考资源](/docs/0.40/more-resources.md)
-*进阶指南
-	- (/docs/0.40/integration-with-existing-apps.md)[嵌入到现有原生应用]
-	- (/docs/0.40/colors.md)[颜色]
-	- (/docs/0.40/images.md)[图片]
-	- (/docs/0.40/handling-touches.md)[处理触摸事件]
-	- (/docs/0.40/animations.md)[动画]
-	- (/docs/0.40/accessibility.md)[无障碍功能]
-	- (/docs/0.40/timers.md)[定时器]
-	- (/docs/0.40/direct-manipulation.md)[直接操作]
-	- (/docs/0.40/debugging.md)[调试]
-	- (/docs/0.40/testing.md)[自动化测试]
-	- (/docs/0.40/javascript-environment.md)[JavaScript环境]
-	- (/docs/0.40/navigation.md)[导航器对比]
-	- (/docs/0.40/performance.md)[性能]
-	- (/docs/0.40/upgrading.md)[升级]
-	- (/docs/0.40/platform-specific-code.md)[特定平台代码]
-	- (/docs/0.40/gesture-responder-system.md)[手势响应系统]
+	- [搭建开发环境](/docs/docs/0.40/getting-started.md)
+	- [编写Hello World](/docs/docs/0.40/tutorial.md)
+	- [Props（属性）](/docs/docs/0.40/props.md)
+	- [State（状态）](/docs/docs/0.40/state.md)
+	- [样式](/docs/docs/0.40/style.md)
+	- [高度与宽度](/docs/docs/0.40/height-and-width.md)
+	- [使用Flexbox布局](/docs/docs/0.40/layout-with-flexbox.md)
+	- [处理文本输入](/docs/docs/0.40/handling-text-input.md)
+	- [如何使用ScrollView](/docs/docs/0.40/using-a-scrollview.md)
+	- [如何使用ListView](/docs/docs/0.40/using-a-listview.md)
+	- [网络](/docs/docs/0.40/network.md)
+	- [使用导航器跳转页面](/docs/docs/0.40/using-navigators.md)
+	- [其他参考资源](/docs/docs/0.40/more-resources.md)
+* 进阶指南
+	- [嵌入到现有原生应用](/docs/docs/0.40/integration-with-existing-apps.md)
+	- [颜色](/docs/docs/0.40/colors.md)
+	- [图片](/docs/docs/0.40/images.md)
+	- [处理触摸事件](/docs/docs/0.40/handling-touches.md)
+	- [动画](/docs/docs/0.40/animations.md)
+	- [无障碍功能](/docs/docs/0.40/accessibility.md)
+	- [定时器](/docs/docs/0.40/timers.md)
+	- [直接操作](/docs/docs/0.40/direct-manipulation.md)
+	- [调试](/docs/docs/0.40/debugging.md)
+	- [自动化测试](/docs/docs/0.40/testing.md)
+	- [JavaScript环境](/docs/docs/0.40/javascript-environment.md)
+	- [导航器对比](/docs/docs/0.40/navigation.md)
+	- [性能](/docs/docs/0.40/performance.md)
+	- [升级](/docs/docs/0.40/upgrading.md)
+	- [特定平台代码](/docs/docs/0.40/platform-specific-code.md)
+	- [手势响应系统](/docs/docs/0.40/gesture-responder-system.md)
