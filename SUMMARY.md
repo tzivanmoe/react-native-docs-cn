@@ -1,4 +1,4 @@
-* 入门基础
+* 入门基础 1.0
 	- [搭建开发环境](/docs/docs/0.40/getting-started.md)
 	- [编写Hello World](/docs/docs/0.40/tutorial.md)
 	- [Props（属性）](/docs/docs/0.40/props.md)
