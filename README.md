@@ -9,3 +9,4 @@
 > 支持 mobi ePub PDF,也可在线阅读   
 [GitBook](https://www.gitbook.com/book/summarychm/reactnative-api/details)
 
+Gitbook转换报错,报错太不明显,有时间再一一排查.
