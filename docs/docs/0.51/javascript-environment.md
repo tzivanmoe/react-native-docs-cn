@@ -40,10 +40,7 @@ ES7
 * [参数列表末尾允许放置逗号Function Trailing Comma](https://github.com/jeffmo/es-trailing-function-commas): `function f(a, b, c,) { }`
 * [Async函数](https://github.com/tc39/ecmascript-asyncawait): `async function doStuffAsync() { const foo = await doOtherStuffAsync(); }`;
 
-其他特性
 
-* [JSX](https://facebook.github.io/react/docs/jsx-in-depth.html): `<View style={{color: 'red'}} />`
-* [Flow](http://flowtype.org/): `function foo(x: ?number): string {}`
 
 ## 接口兼容（Polyfills）
 
