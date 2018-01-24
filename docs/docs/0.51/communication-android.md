@@ -14,7 +14,7 @@ Properties are the simplest way of cross-component communication. So we need a w
 
 You can pass properties down to the React Native app by providing a custom implementation of `ReactActivityDelegate` in your main activity. This implementation should override `getLaunchOptions` to return a `Bundle` with the desired properties.
 
-```
+```javascript
 public class MainActivity extends ReactActivity {
   @Override
   protected ReactActivityDelegate createReactActivityDelegate() {
@@ -34,7 +34,7 @@ public class MainActivity extends ReactActivity {
 }
 ```
 
-```
+```javascript
 'use strict';
 
 import React from 'react';
@@ -64,7 +64,7 @@ AppRegistry.registerComponent('AwesomeProject', () => ImageBrowserApp);
 
 `ReactRootView` provides a read-write property `appProperties`. After `appProperties` is set, the React Native app is re-rendered with new properties. The update is only performed when the new updated properties differ from the previous ones.
 
-```
+```javascript
 Bundle updatedProps = mReactRootView.getAppProperties(); 
 ArrayList<String> imageList = new ArrayList<String>(Arrays.asList(
         "http://foo.com/bar3.png",
