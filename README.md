@@ -1,24 +1,11 @@
-# 更新时间 2017年3月7日
-## 后续会继续跟进更新的方便大家使用kindle等设备离线阅读.
-# 第四版重构
+## 更新时间 2018年1月24日
+> 因为使用kindle用浏览器看reactnative.cn的API十分的不变.  
+> 所以用Gitbook进行了下转化.    
+> 后续不定期会继续跟进更新.方便大家使用kindle等设备离线阅读. 
+> 如有问题欢迎欢迎提issues  
+> 资源来源 [reactnative.cn](https://reactnative.cn)   
 
-我们正在对[React Native 中文网](http://react-native.cn/)进行第四版重构，这次重构主要目标是优化,具体方式包括:
+## 电子版下载地址
+> 支持 mobi ePub PDF,也可在线阅读   
+[GitBook](https://www.gitbook.com/book/summarychm/reactnative-api/details)
 
-1. 减少server-rendering的开销,包括页面静态化和动态页面缓存
-2. 引入CI预编译,减少线上服务器的构建开销
-3. 移除redux的使用,改用更直接的react方式
-4. 在运行环境抛弃babel-register,改为预编译的babel方式
-
-## 提交文档
-请访问[文档所在的仓库](https://github.com/reactnativecn/react-native.cn/tree/stable/docs/docs)，fork后新建或修订文档，然后创建Pull Request。我们会在第一时间审阅。欢迎社区的朋友们踊跃贡献！
-
-## 开发环境
-
-#### Windows
-
-Windows下受到一些限制，所以必须要执行以下命令
-
-```bash
-npm run webpack
-rd /s /q build
-```
